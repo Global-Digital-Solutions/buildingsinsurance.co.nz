@@ -36,7 +36,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
   if (compact) {
     return (
       <form
-        action="https://formsubmit.co/hello@cover4you.co.nz"
+        action="https://shiny-bush-41cd.darinbutler.workers.dev"
         method="POST"
         onSubmit={handleSubmit}
         className="space-y-4"
@@ -198,7 +198,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
       {/* Form Body */}
       <form
-        action="https://formsubmit.co/hello@cover4you.co.nz"
+        action="https://shiny-bush-41cd.darinbutler.workers.dev"
         method="POST"
         onSubmit={handleSubmit}
         className="p-8"
