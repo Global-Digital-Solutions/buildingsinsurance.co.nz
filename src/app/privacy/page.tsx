@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | BuildingsInsurance.co.nz',
-  description: 'Our privacy policy explains how we collect, use, and protect your personal information.',
+  description: 'Our privacy policy explains how we collect, use, and protect your personal information under the Privacy Act 2020 (NZ).',
 };
 
 export default function PrivacyPage() {
@@ -16,7 +16,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-emerald-50 text-lg">
-            Last updated: April 2, 2026
+            Last updated: 9 May 2026
           </p>
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
               <li>Property address and location information</li>
               <li>Property type, age, construction details, and features</li>
               <li>Insurance coverage preferences and requirements</li>
-              <li>Financial information for quote comparisons</li>
+              <li>Details about your property relevant to insurance needs</li>
               <li>Communication history and correspondence</li>
             </ul>
 
@@ -132,11 +132,13 @@ export default function PrivacyPage() {
             </p>
 
             <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">
-              4.1 With Insurance Providers
+              4.1 With Licensed Insurance Advisers and Brokers
             </h3>
             <p className="text-slate-700 mb-4">
-              To provide you with insurance quotes and comparisons, we share relevant information with
-              participating insurance providers. They use this information to generate personalized quotes.
+              When you submit a quote request, we pass your contact details and property information to
+              licensed insurance advisers and brokers who will contact you to discuss your needs and provide
+              a quote. These advisers are Financial Advice Providers (FAPs) regulated under the Financial
+              Markets Conduct Act 2013.
             </p>
 
             <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">
@@ -322,9 +324,8 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-4 space-y-2">
               <li>Privacy Act 2020 (New Zealand)</li>
-              <li>Insurance Council of New Zealand (ICNZ) Guidelines</li>
-              <li>Financial Markets Authority (FMA) requirements</li>
-              <li>Insurance Intermediaries Act 2011</li>
+              <li>Insurance Council of New Zealand (ICNZ) Fair Insurance Code</li>
+              <li>Consumer Guarantees Act 1993</li>
             </ul>
           </section>
         </div>

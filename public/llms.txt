@@ -1,10 +1,10 @@
 # BuildingsInsurance.co.nz
 
-> New Zealand's independent buildings insurance comparison and advisory service. We help Kiwi homeowners, landlords, commercial property owners, and body corporates find the right buildings insurance coverage at competitive rates.
+> New Zealand's specialist buildings insurance broker referral service. We connect Kiwi homeowners, landlords, commercial property owners, and body corporates with licensed local insurance advisers and brokers who provide personalised quotes and expert guidance.
 
 ## About Us
 
-BuildingsInsurance.co.nz is an independent insurance advisory platform based in New Zealand. We connect property owners with licensed local insurance advisers and brokers who provide personalised quotes and expert guidance. We are not an insurer — we are a free comparison and advisory service.
+BuildingsInsurance.co.nz is an independent broker referral platform based in New Zealand. We are not an insurer and we do not provide financial advice. The licensed advisers and brokers we refer you to are Financial Advice Providers (FAPs) regulated under the Financial Markets Conduct Act 2013.
 
 - Website: https://buildingsinsurance.co.nz
 - Email: hello@cover4you.co.nz
@@ -13,7 +13,7 @@ BuildingsInsurance.co.nz is an independent insurance advisory platform based in 
 
 ## Services
 
-We provide free, no-obligation buildings insurance quotes for:
+We provide free, no-obligation broker referrals for:
 
 - **Residential buildings insurance** — coverage for owner-occupied homes including earthquake, fire, storm, and flood protection
 - **Commercial buildings insurance** — protection for business premises, offices, retail spaces, and industrial buildings (not covered by EQC)
@@ -29,17 +29,20 @@ We provide free, no-obligation buildings insurance quotes for:
 
 ## Key Content
 
-### Comparison Tools
-- [Compare NZ Buildings Insurance Providers](https://buildingsinsurance.co.nz/compare/) — side-by-side comparison of all major NZ buildings insurers including ratings, premiums, excess amounts, and coverage features
-
 ### Coverage Guides
 - [Buildings Insurance Coverage Explained](https://buildingsinsurance.co.nz/coverage/) — comprehensive guide to what buildings insurance covers and doesn't cover in New Zealand, including EQC integration and coverage tiers
+
+### Comparison
+- [Compare NZ Buildings Insurance Providers](https://buildingsinsurance.co.nz/compare/) — side-by-side overview of major NZ buildings insurers including ratings, excess amounts, and coverage features
 
 ### Sector Guides
 - [Residential Buildings Insurance](https://buildingsinsurance.co.nz/sectors/residential/) — guide for homeowners on protecting their most valuable asset
 - [Commercial Buildings Insurance](https://buildingsinsurance.co.nz/sectors/commercial/) — guide for business property owners (no EQC cover applies)
 - [Landlord Buildings Insurance](https://buildingsinsurance.co.nz/sectors/landlords/) — guide for rental property investors including tax deductibility
 - [Body Corporate Insurance](https://buildingsinsurance.co.nz/sectors/body-corporate/) — mandatory insurance requirements under the Unit Titles Act
+
+### Claims
+- [Making a Buildings Insurance Claim](https://buildingsinsurance.co.nz/claims/) — step-by-step guide to making a claim with your NZ insurer
 
 ### Blog Articles
 - [Understanding Buildings Insurance in NZ](https://buildingsinsurance.co.nz/blog/understanding-buildings-insurance-nz/) — comprehensive beginner's guide
@@ -49,6 +52,13 @@ We provide free, no-obligation buildings insurance quotes for:
 - [Landlord Insurance: Protecting Your Investment](https://buildingsinsurance.co.nz/blog/landlord-insurance-protecting-your-investment/) — essential coverage for rental property owners
 - [Body Corporate Insurance Explained](https://buildingsinsurance.co.nz/blog/body-corporate-insurance-explained/) — obligations and coverage for unit title owners
 
+### Company Pages
+- [About BuildingsInsurance.co.nz](https://buildingsinsurance.co.nz/about/) — who we are and how we operate
+- [Contact Us](https://buildingsinsurance.co.nz/contact/) — get in touch with our team
+- [Privacy Policy](https://buildingsinsurance.co.nz/privacy/) — how we handle your personal information under the Privacy Act 2020
+- [Terms of Service](https://buildingsinsurance.co.nz/terms/) — terms and conditions for using this site
+- [Disclaimer](https://buildingsinsurance.co.nz/disclaimer/) — important information about our referral-only service
+
 ## NZ Insurance Context
 
 - The Earthquake Commission (EQC) provides natural disaster cover for residential buildings up to $300,000 (EQCover). Private insurers top this up for higher values.
@@ -57,7 +67,7 @@ We provide free, no-obligation buildings insurance quotes for:
 - Common exclusions: gradual damage, wear and tear, deliberate damage, war, nuclear events.
 - All insurers referenced are members of the Insurance Council of New Zealand (ICNZ).
 
-## Insurers We Compare
+## Insurers Covered
 
 - AMI Insurance (IAG subsidiary, NZ-owned heritage)
 - State Insurance (IAG subsidiary)

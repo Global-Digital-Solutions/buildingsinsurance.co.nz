@@ -16,7 +16,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-emerald-50 text-lg">
-            Last updated: April 2, 2026
+            Last updated: 9 May 2026
           </p>
         </div>
       </div>
@@ -45,20 +45,20 @@ export default function TermsPage() {
               1. Services Provided
             </h2>
             <p className="text-slate-700 mb-4">
-              BuildingsInsurance.co.nz provides a comparison and information service for buildings insurance
-              products and services available in New Zealand. Our Services are designed to help you:
+              BuildingsInsurance.co.nz is a broker referral and information service for buildings insurance
+              in New Zealand. Our Services are designed to help you:
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-4 space-y-2">
-              <li>Compare buildings insurance quotes from multiple insurers</li>
-              <li>Access educational information about insurance coverage</li>
-              <li>Receive personalized recommendations based on your needs</li>
-              <li>Obtain free quotes without obligation</li>
+              <li>Connect with licensed buildings insurance advisers and brokers</li>
+              <li>Access educational information about insurance coverage options</li>
+              <li>Understand what to look for in a buildings insurance policy</li>
+              <li>Request a free, no-obligation quote via our referral network</li>
             </ul>
             <p className="text-slate-700 mb-4">
-              <strong>Important Disclaimer:</strong> We provide a comparison and information service only. We do not
-              provide personalized financial or insurance advice. We recommend that you seek independent professional
-              advice before making any insurance decisions. Any recommendations or suggestions we provide are based
-              solely on the information you provide and are not tailored to your specific circumstances.
+              <strong>Important:</strong> BuildingsInsurance.co.nz is a referral service only. We do not provide
+              financial advice and we are not a Financial Advice Provider (FAP). The licensed advisers and brokers
+              we refer you to are regulated under the Financial Markets Conduct Act 2013. We recommend reviewing
+              their disclosure statements before proceeding.
             </p>
           </section>
 
@@ -119,18 +119,18 @@ export default function TermsPage() {
 
           <section className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              5. Quote Accuracy and Limitations
+              5. Referral Process and Limitations
             </h2>
             <p className="text-slate-700 mb-4">
-              Quotes provided through our Services are estimates based on the information you provide and are
-              not binding offers of insurance. Please note:
+              When you submit a request through our website, your details are passed to a licensed adviser
+              or broker who will contact you to discuss your needs and provide a quote. Please note:
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-4 space-y-2">
-              <li>Quotes are estimates and may differ from final premiums</li>
-              <li>Insurers may adjust quotes based on additional information or verification</li>
-              <li>Coverage terms and conditions are determined by the insurance provider</li>
-              <li>You must review policy documents before purchasing</li>
-              <li>We are not responsible for discrepancies between quotes and final policies</li>
+              <li>We do not provide quotes directly — quotes are provided by the referred adviser or broker</li>
+              <li>Cover availability and pricing are determined by the insurance provider, not by us</li>
+              <li>Coverage terms and conditions are set out in the policy documents from the insurer</li>
+              <li>You must review policy documents and disclosure statements before committing</li>
+              <li>We are not responsible for any advice, quotes, or decisions made by referred advisers</li>
             </ul>
           </section>
 
@@ -274,11 +274,10 @@ export default function TermsPage() {
               Our Services comply with applicable New Zealand regulations, including:
             </p>
             <ul className="list-disc list-inside text-slate-700 mb-4 space-y-2">
-              <li>Privacy Act 2020</li>
-              <li>Insurance Council of New Zealand Guidelines</li>
-              <li>Financial Markets Authority Requirements</li>
-              <li>Insurance Intermediaries Act 2011</li>
+              <li>Privacy Act 2020 (New Zealand)</li>
+              <li>Insurance Council of New Zealand (ICNZ) Fair Insurance Code</li>
               <li>Consumer Guarantees Act 1993</li>
+              <li>Fair Trading Act 1986</li>
             </ul>
             <p className="text-slate-700 mb-4">
               If you have concerns about our compliance or services, you may contact the Insurance and Financial

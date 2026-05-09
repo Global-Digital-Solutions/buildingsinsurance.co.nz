@@ -1,16 +1,30 @@
 # robots.txt for buildingsinsurance.co.nz
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://buildingsinsurance.co.nz/sitemap.xml
-
-# Block admin and thank-you pages
 Disallow: /admin/
 Disallow: /thank-you/
+Disallow: /api/
 
-# Block query parameter variants
-Disallow: /*?*
+# Block AI training crawlers
+User-agent: GPTBot
+Disallow: /
 
-# Crawl-delay for polite crawling
-Crawl-delay: 1
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+Sitemap: https://buildingsinsurance.co.nz/sitemap.xml
