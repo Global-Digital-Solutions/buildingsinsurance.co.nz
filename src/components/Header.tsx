@@ -22,8 +22,6 @@ export default function Header() {
     { label: 'Coverage', href: '/coverage' },
     { label: 'Compare', href: '/compare' },
     { label: 'Blog', href: '/blog' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' },
   ];
 
   const sectors = [

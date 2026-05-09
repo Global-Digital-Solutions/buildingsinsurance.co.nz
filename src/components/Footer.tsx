@@ -153,12 +153,15 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="border-t border-slate-800 pt-8 mb-8">
           <div className="max-w-4xl mx-auto">
-            <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">How This Site Works</h4>
+            <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Important Information</h4>
             <p className="text-xs text-slate-500 leading-relaxed mb-3">
-              BuildingsInsurance.co.nz is committed to helping New Zealanders find the right buildings insurance through honest, transparent comparison. We may receive compensation from insurers, brokers or underwriters when you enquire about or purchase a product through our site. However, this does not influence our reviews, ratings or recommendations. Our editorial team personally reviews all brokers, underwriters and insurers featured on this website to ensure we provide accurate, impartial information that saves you time and money.
+              BuildingsInsurance.co.nz is a broker referral service only. We are not an insurer and we do not provide financial advice. When you submit a quote request, your details are passed to a licensed insurance adviser or broker — a Financial Advice Provider (FAP) regulated under the Financial Markets Conduct Act 2013 — who will contact you directly to discuss your needs and provide a quote. Any advice given and any policy arranged will be between you and that licensed adviser or insurer.
+            </p>
+            <p className="text-xs text-slate-500 leading-relaxed mb-3">
+              All content on this website is general in nature and is provided for informational purposes only. It does not constitute financial or insurance advice and should not be relied upon as a substitute for personalised advice from a licensed adviser. We recommend reviewing any adviser&apos;s disclosure statement and reading the relevant policy wording before committing to cover.
             </p>
             <p className="text-xs text-slate-500 leading-relaxed">
-              The information on this website is general in nature and does not constitute financial or insurance advice. We recommend you read the relevant Product Disclosure Statement (PDS) and consider your own circumstances before purchasing any insurance product. All efforts are made to keep information current and accurate, but we do not guarantee completeness or suitability for your individual needs.
+              Premium ranges, ratings, and provider information published on this site are indicative only, based on publicly available data. Actual premiums and coverage terms are set by insurers and may differ. All efforts are made to keep information current and accurate, but we do not guarantee completeness or suitability for your individual circumstances. Complaints about financial advice received from a referred adviser can be directed to the Insurance and Financial Services Ombudsman (IFSO) at <a href="https://www.ifso.nz" className="text-slate-400 hover:text-emerald-400 transition-colors">www.ifso.nz</a>.
             </p>
           </div>
         </div>

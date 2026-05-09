@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { Shield, Building2, DollarSign, Clock, Landmark, HeadphonesIcon } from 'lucide-react';
+import { Shield, Building2, DollarSign, Clock, Landmark, TrendingUp } from 'lucide-react';
 
 interface Stat {
   value: string;
@@ -18,12 +18,12 @@ export default function AnimatedStats() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const stats: Stat[] = [
-    { value: '10000', label: 'NZ Homes Protected', suffix: '+', prefix: '', icon: Shield },
-    { value: '6', label: 'Top NZ Insurers', suffix: '', prefix: '', icon: Building2 },
-    { value: '0', label: 'Comparison Fees', suffix: '', prefix: '$', icon: DollarSign },
-    { value: '15', label: 'Years Experience', suffix: '+', prefix: '', icon: Clock },
-    { value: '300', label: 'EQC Cap', suffix: 'K', prefix: '$', icon: Landmark },
-    { value: '24/7', label: 'Claims Support', suffix: '', prefix: '', icon: HeadphonesIcon, isSpecial: true },
+    { value: '26', label: 'Avg. Premium Saving', suffix: '%', prefix: 'Up to ', icon: TrendingUp },
+    { value: '6', label: 'Major NZ Insurers', suffix: '', prefix: '', icon: Building2 },
+    { value: '0', label: 'Broker Fees', suffix: '', prefix: '$', icon: DollarSign },
+    { value: '95', label: 'NZ Claims Paid', suffix: '%+', prefix: '', icon: Shield },
+    { value: '300', label: 'EQC Residential Cap', suffix: 'K', prefix: '$', icon: Landmark },
+    { value: '24', label: 'Hour Response', suffix: 'hr', prefix: '', icon: Clock },
   ];
 
   useEffect(() => {
@@ -127,20 +127,27 @@ export default function AnimatedStats() {
                 </div>
 
                 {/* Value */}
-                <div className="flex items-baseline justify-center gap-0.5 mb-1">
-                  {stat.prefix && (
-                    <span className="text-2xl lg:text-3xl font-bold text-emerald-600">
+                <div className="flex flex-col items-center mb-1">
+                  {stat.prefix && stat.prefix.length > 2 && (
+                    <span className="text-xs font-semibold text-emerald-500 uppercase tracking-wide mb-0.5">
                       {stat.prefix}
                     </span>
                   )}
-                  <span className="text-3xl lg:text-4xl font-extrabold text-emerald-600 tabular-nums tracking-tight">
-                    {animatedStats[index] ?? (stat.isSpecial ? '' : '0')}
-                  </span>
-                  {stat.suffix && (
-                    <span className="text-xl lg:text-2xl font-bold text-emerald-500">
-                      {stat.suffix}
+                  <div className="flex items-baseline justify-center gap-0.5">
+                    {stat.prefix && stat.prefix.length <= 2 && (
+                      <span className="text-2xl lg:text-3xl font-bold text-emerald-600">
+                        {stat.prefix}
+                      </span>
+                    )}
+                    <span className="text-3xl lg:text-4xl font-extrabold text-emerald-600 tabular-nums tracking-tight">
+                      {animatedStats[index] ?? (stat.isSpecial ? '' : '0')}
                     </span>
-                  )}
+                    {stat.suffix && (
+                      <span className="text-xl lg:text-2xl font-bold text-emerald-500">
+                        {stat.suffix}
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 {/* Label */}

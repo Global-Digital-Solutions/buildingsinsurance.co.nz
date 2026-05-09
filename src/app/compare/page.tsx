@@ -54,6 +54,15 @@ const premiumRanges = [
   { type: 'Rental property', range: '$600–$1,200/yr', icon: '🔑' },
 ];
 
+const TableDisclaimer = ({ text }: { text: string }) => (
+  <p className="mt-3 text-xs text-slate-500 leading-relaxed flex gap-2 items-start">
+    <svg className="w-3.5 h-3.5 flex-shrink-0 mt-0.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    {text}
+  </p>
+);
+
 const CTABlock = ({ variant = 'primary' }: { variant?: 'primary' | 'secondary' | 'dark' }) => {
   if (variant === 'dark') {
     return (
@@ -297,6 +306,8 @@ export default function ComparePage() {
             ))}
           </div>
 
+          <TableDisclaimer text="Ratings, features, and pricing are based on publicly available information as at May 2026 and are provided as general guidance only. BuildingsInsurance.co.nz is a referral service — we do not provide quotes directly. Your licensed adviser will obtain actual quotes based on your specific property details." />
+
           {/* CTA after Provider Table */}
           <CTABlock variant="primary" />
         </section>
@@ -364,6 +375,8 @@ export default function ComparePage() {
             </table>
           </div>
 
+          <TableDisclaimer text="Coverage features listed are indicative based on standard policy wordings available at the time of publication. Individual policies vary — optional add-ons, endorsements, and exclusions may apply. Always review the full policy wording and speak with your licensed adviser before purchasing." />
+
           {/* CTA after Coverage Matrix */}
           <CTABlock variant="secondary" />
         </section>
@@ -386,6 +399,8 @@ export default function ComparePage() {
               </div>
             ))}
           </div>
+
+          <TableDisclaimer text="Premium ranges shown are estimates based on average market data for standard properties in low-to-moderate risk NZ locations. Your actual premium will depend on your property's rebuild value, location, construction type, age, claims history, and chosen excess. Get a personalised quote from a licensed adviser for an accurate figure." />
 
           {/* CTA after Premium Ranges */}
           <CTABlock variant="dark" />
