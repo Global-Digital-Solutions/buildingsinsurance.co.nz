@@ -8,7 +8,10 @@ import { faqs } from '@/data/faqs'
 import {
   Shield,
   CheckCircle,
-  Star,
+  Clock,
+  Users,
+  TrendingDown,
+  ArrowRight,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -87,30 +90,30 @@ export default function HomePage() {
     },
   ]
 
-  const testimonials = [
+  const brokerBenefits = [
     {
-      name: 'Rachel M.',
-      role: 'Homeowner',
-      city: 'Auckland',
-      quote:
-        'After the earthquakes, I realised how important good buildings insurance is. This site helped me find the right cover for peace of mind.',
-      stars: 5,
+      icon: Users,
+      color: 'bg-emerald-100 text-emerald-700',
+      title: 'Matched to the Right Broker',
+      body: 'We connect you with a licensed NZ adviser who specialises in your property type — residential, commercial, landlord, or body corporate.',
     },
     {
-      name: 'David K.',
-      role: 'Landlord',
-      city: 'Wellington',
-      quote:
-        'As a landlord with multiple properties, comparing policies here saved me hundreds and ensured I had the right cover for each investment.',
-      stars: 5,
+      icon: TrendingDown,
+      color: 'bg-sky-100 text-sky-700',
+      title: 'We Compare So You Don\'t Have To',
+      body: 'Your adviser shops across the major NZ insurers to find the policy that fits your property and budget — no hours of research required.',
     },
     {
-      name: 'Sarah T.',
-      role: 'Body Corporate Chair',
-      city: 'Christchurch',
-      quote:
-        'Managing insurance for our complex building was difficult until I found this resource. Clear information and easy to compare options.',
-      stars: 5,
+      icon: Clock,
+      color: 'bg-violet-100 text-violet-700',
+      title: 'Response Within 24 Hours',
+      body: 'Submit your details once and hear back the same business day. No chasing, no call centres — a real person who knows NZ insurance.',
+    },
+    {
+      icon: Shield,
+      color: 'bg-amber-100 text-amber-700',
+      title: 'Brokers We Trust',
+      body: 'Every adviser in our network holds a Financial Advice Provider licence and operates under the ICNZ Fair Insurance Code.',
     },
   ]
 
@@ -118,21 +121,39 @@ export default function HomePage() {
 
   return (
     <>
+      {/* FAQPage schema — enables FAQ rich results in SERPs */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
-            name: 'Buildings Insurance Co.nz',
-            url: 'https://buildingsinsurance.co.nz',
-            description:
-              'Compare buildings insurance quotes from leading NZ insurers',
-            areaServed: 'NZ',
-            contactPoint: {
-              '@type': 'ContactPoint',
-              contactType: 'Customer Service',
-            },
+            '@type': 'FAQPage',
+            mainEntity: displayFaqs.map((faq) => ({
+              '@type': 'Question',
+              name: faq.q,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.a,
+              },
+            })),
+          }),
+        }}
+      />
+      {/* WebPage schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            '@id': 'https://buildingsinsurance.co.nz/',
+            url: 'https://buildingsinsurance.co.nz/',
+            name: 'Buildings Insurance NZ | Compare & Save',
+            description: 'Compare buildings insurance quotes from NZ leading insurers. Get quotes, save time and money on your home insurance cover.',
+            inLanguage: 'en-NZ',
+            isPartOf: { '@id': 'https://buildingsinsurance.co.nz/#website' },
+            about: { '@id': 'https://buildingsinsurance.co.nz/#organization' },
+            publisher: { '@id': 'https://buildingsinsurance.co.nz/#organization' },
           }),
         }}
       />
@@ -168,7 +189,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="#quote-form" className="rounded-lg bg-emerald-500 px-8 py-3.5 font-bold text-white transition-all hover:bg-emerald-400 hover:shadow-lg hover:-translate-y-0.5 shadow-lg shadow-emerald-600/30">
-                Get a Free Quote
+                Get a Quote
               </Link>
               <Link href="/compare" className="rounded-lg border-2 border-white/70 px-8 py-3.5 font-semibold text-white transition-all hover:bg-white/10 hover:border-white">
                 Compare Insurers
@@ -325,43 +346,174 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="bg-white px-6 py-20 sm:px-12 lg:px-20">
-        <div className="mx-auto max-w-6xl">
-          <div className="mb-12 text-center">
+      {/* Broker Value Section */}
+      <section className="relative overflow-hidden bg-white px-6 py-20 sm:px-12 lg:px-20">
+        {/* Subtle background tint */}
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/60 via-white to-sky-50/40 pointer-events-none" />
+
+        <div className="relative mx-auto max-w-6xl">
+          {/* Header */}
+          <div className="mb-14 text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-4 py-1.5 text-sm font-semibold text-emerald-700 mb-4">
+              <Shield className="h-4 w-4" /> Expert Brokers. Zero Fees.
+            </span>
             <h2 className="mb-4 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
-              Trusted by NZ Homeowners
+              We Do the Hard Work —<br className="hidden sm:block" /> You Get the Right Cover
             </h2>
-            <p className="text-lg text-slate-600">
-              See what homeowners, landlords and body corporate chairs say about us
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Tell us about your property once. Our trusted network of licensed NZ advisers compare policies across the major insurers and come back to you with options matched to your situation.
             </p>
           </div>
 
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {testimonials.map((testimonial, idx) => (
-              <div
-                key={idx}
-                className="rounded-2xl bg-slate-50 p-8 shadow-md transition-all hover:shadow-lg"
-              >
-                <div className="mb-4 flex gap-1">
-                  {[...Array(testimonial.stars)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="h-5 w-5 fill-amber-400 text-amber-400"
-                    />
-                  ))}
+          {/* Benefit cards */}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 mb-14">
+            {brokerBenefits.map((b, idx) => {
+              const Icon = b.icon
+              return (
+                <div key={idx} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+                  <div className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl ${b.color}`}>
+                    <Icon className="h-6 w-6" strokeWidth={1.8} />
+                  </div>
+                  <h3 className="mb-2 font-bold text-slate-900">{b.title}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">{b.body}</p>
                 </div>
-                <p className="mb-6 text-lg italic text-slate-700">
-                  "{testimonial.quote}"
-                </p>
-                <div>
-                  <p className="font-semibold text-slate-900">{testimonial.name}</p>
-                  <p className="text-slate-600">
-                    {testimonial.role}, {testimonial.city}
-                  </p>
-                </div>
+              )
+            })}
+          </div>
+
+          {/* CTA strip */}
+          <div className="rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-700 px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-lg shadow-emerald-900/20">
+            <div>
+              <p className="text-white font-bold text-xl mb-1">Ready to find the right cover?</p>
+              <p className="text-emerald-100 text-sm">Submit your details below — your adviser will be in touch within 24 hours.</p>
+            </div>
+            <a
+              href="#quote-form"
+              className="flex-shrink-0 inline-flex items-center gap-2 bg-white text-emerald-700 font-bold px-7 py-3.5 rounded-xl hover:bg-emerald-50 transition-colors shadow"
+            >
+              Get My Quote
+              <ArrowRight className="h-5 w-5" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Popular Guides Section */}
+      <section className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20 border-t border-slate-200">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-12 text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-4 py-1.5 text-sm font-semibold text-slate-700 mb-4">
+              NZ Expert Resources
+            </span>
+            <h2 className="mb-3 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
+              Popular Guides
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Research your cover before you buy. Our guides cover NZ-specific risks, costs, and everything in between.
+            </p>
+          </div>
+
+          {/* Featured guide: earthquake */}
+          <div className="mb-6">
+            <Link
+              href="/earthquake-insurance/"
+              className="group flex flex-col sm:flex-row gap-6 rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 border border-slate-700 hover:border-emerald-500 p-7 transition-all hover:shadow-xl"
+            >
+              <div className="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-2xl bg-red-500/20 border border-red-500/30 text-3xl">
+                🌍
               </div>
+              <div className="flex-1">
+                <span className="text-xs font-bold uppercase tracking-wider text-red-400 mb-2 block">Most Important for NZ Homeowners</span>
+                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">
+                  Earthquake Insurance in NZ — The Complete Guide
+                </h3>
+                <p className="text-slate-400 text-sm leading-relaxed mb-3">
+                  How NHCover (the new EQC) works, what changed in 2024, regional fault risk, and how to close the gap between the $300,000 cap and your actual rebuild cost.
+                </p>
+                <span className="inline-flex items-center gap-2 text-emerald-400 font-semibold text-sm group-hover:gap-3 transition-all">
+                  Read the guide <ArrowRight className="h-4 w-4" />
+                </span>
+              </div>
+            </Link>
+          </div>
+
+          {/* 5 guide cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+            {[
+              {
+                emoji: '🧮',
+                href: '/rebuild-cost-calculator/',
+                badge: 'Tool',
+                badgeColor: 'bg-sky-100 text-sky-700',
+                title: 'Rebuild Cost Calculator',
+                desc: 'With NZ construction costs up 35–45% since 2019, use our estimator to check your sum-insured is still accurate.',
+              },
+              {
+                emoji: '⚠️',
+                href: '/underinsurance/',
+                badge: 'Must Read',
+                badgeColor: 'bg-amber-100 text-amber-700',
+                title: 'Are You Underinsured?',
+                desc: 'An estimated 45% of NZ homes are underinsured. See exactly what that means at claim time — with real shortfall scenarios.',
+              },
+              {
+                emoji: '🌧️',
+                href: '/flood-insurance/',
+                badge: 'Risk Guide',
+                badgeColor: 'bg-blue-100 text-blue-700',
+                title: 'Flood & Storm Insurance NZ',
+                desc: 'Post-Gabrielle: what NZ buildings insurance covers for flood and storm damage — and the exclusions to watch for.',
+              },
+              {
+                emoji: '💰',
+                href: '/cheap-buildings-insurance/',
+                badge: 'Save Money',
+                badgeColor: 'bg-emerald-100 text-emerald-700',
+                title: 'How to Reduce Your Premium',
+                desc: 'The legitimate ways to lower your buildings insurance cost without creating dangerous coverage gaps.',
+              },
+              {
+                emoji: '🏗️',
+                href: '/new-build-insurance/',
+                badge: 'New Builds',
+                badgeColor: 'bg-violet-100 text-violet-700',
+                title: 'Insurance for New Builds',
+                desc: 'What insurance you need at each stage — from construction through settlement — and why new builds often attract lower premiums.',
+              },
+              {
+                emoji: '📊',
+                href: '/compare/',
+                badge: 'Compare',
+                badgeColor: 'bg-slate-100 text-slate-700',
+                title: 'Compare NZ Insurers',
+                desc: 'See how IAG, Vero, Tower, AMI, and other major NZ insurers compare on price, claims, and policy features.',
+              },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group flex flex-col rounded-2xl bg-white border-2 border-slate-200 hover:border-emerald-400 hover:shadow-lg p-6 transition-all hover:-translate-y-0.5"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <span className="text-3xl">{guide.emoji}</span>
+                  <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${guide.badgeColor}`}>{guide.badge}</span>
+                </div>
+                <h3 className="font-bold text-slate-900 mb-2 group-hover:text-emerald-700 transition-colors">{guide.title}</h3>
+                <p className="text-sm text-slate-600 leading-relaxed flex-1 mb-4">{guide.desc}</p>
+                <span className="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm group-hover:gap-2.5 transition-all">
+                  Read guide <ArrowRight className="h-4 w-4" />
+                </span>
+              </Link>
             ))}
+          </div>
+
+          <div className="text-center">
+            <Link
+              href="/blog/"
+              className="inline-flex items-center gap-2 font-semibold text-slate-700 hover:text-emerald-700 transition-colors"
+            >
+              View all resources and articles <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
@@ -369,7 +521,7 @@ export default function HomePage() {
       {/* FAQ Section */}
       <section
         id="faq"
-        className="bg-slate-50 px-6 py-20 sm:px-12 lg:px-20"
+        className="bg-white px-6 py-20 sm:px-12 lg:px-20"
       >
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
@@ -416,7 +568,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
             <h2 className="mb-2 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl">
-              Get Your Free Quote
+              Get Your Quote
             </h2>
             <p className="text-lg text-slate-600">
               Compare personalised quotes from top insurers in minutes

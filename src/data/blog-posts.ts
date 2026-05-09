@@ -839,4 +839,407 @@ export const blogPosts: BlogPost[] = [
 <h2>Conclusion</h2>
 <p>Body corporate buildings insurance is essential protection for apartment communities in New Zealand. It protects the collective investment of all unit owners while also protecting individual owner interests. Bodies corporate must ensure insurance is adequate, regularly reviewed, and responsive to building changes. Individual unit owners should understand what's covered by body corporate insurance and arrange supplementary insurance for contents and personal improvements. Whether you're a body corporate committee member or an apartment owner, understanding how body corporate insurance works is crucial for protecting your property investment and financial security.</p>`,
   },
+
+  // ── NEW ARTICLES ──────────────────────────────────────────────────────────
+
+  {
+    slug: 'eqc-natural-hazards-commission-changes-2024',
+    title: 'EQC Is Now the Natural Hazards Commission: Key Changes NZ Homeowners Must Know',
+    excerpt: 'From 1 July 2024, New Zealand\'s Earthquake Commission became the Natural Hazards Commission Toka Tū Ake. Here\'s exactly what changed — and what stayed the same — for your buildings insurance.',
+    date: '2026-04-28',
+    category: 'NZ Market',
+    author: 'James Thornton',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
+    readingTime: 7,
+    content: `<h2>A New Name for a Familiar Scheme</h2>
+<p>From 1 July 2024, New Zealand's Earthquake Commission (EQC) became the <strong>Natural Hazards Commission Toka Tū Ake (NHC)</strong>. This was no mere rebrand — it was the most significant reform to New Zealand's residential natural hazards insurance scheme since 1993, triggered by lessons from the Canterbury earthquake sequence and the 2020 Public Inquiry into EQC.</p>
+<p>The Māori name Toka Tū Ake means "the foundation from which we stand strong, together" — a phrase that captures the pooled, community-funded nature of the scheme. If you own a home in New Zealand, understanding what changed matters directly to how your insurance claim would be handled.</p>
+
+<h2>What Is the Natural Hazards Commission?</h2>
+<p>Like its predecessor, the NHC is a Crown entity that provides the first layer of insurance cover for residential properties against natural hazards. It is funded by a levy embedded in every residential buildings insurance premium — currently NZ$480 per year. The NHC absorbs initial losses so that private insurers only need to cover damage above the cap, which helps keep private insurance available and affordable across New Zealand.</p>
+<p>Cover now extends to earthquakes, volcanic eruptions, tsunami, geothermal activity, storms, floods, and landslides. The new name better communicates this full scope — many homeowners previously assumed cover was limited to earthquakes alone.</p>
+
+<h2>The Building Cover Cap: Still $300,000</h2>
+<p>One of the most important things to understand is that the <strong>building cover cap remains $300,000 plus GST per insured dwelling</strong>. This applies to damage occurring on or after 1 July 2024. For damage that first occurred before that date, the old EQC Act still governs.</p>
+<p>This cap means that if your home requires more than $300,000 to rebuild after a natural hazard event, your private buildings insurer covers the shortfall — which is exactly why maintaining an adequate buildings insurance policy is non-negotiable.</p>
+
+<h2>The Biggest Change: A Flat $500 Excess</h2>
+<p>Under the old EQC Act, the excess for a building claim was 1% of the total settlement, with a minimum of $200 and a maximum of $3,450. For a $200,000 claim, that meant a $2,000 excess.</p>
+<p>Under the NHI Act 2023, the excess for building claims is now a <strong>flat $500 per insured home</strong>. This is a significant simplification and, for most homeowners, a meaningful reduction in out-of-pocket costs when making a claim. The land claim excess is also $500, with a maximum of $5,000 for buildings with more than ten insured homes.</p>
+
+<h2>New Complaints and Dispute Resolution Rights</h2>
+<p>One of the clearest improvements from the Canterbury experience is a stronger framework for homeowners who disagree with a claim outcome. The new Act introduced:</p>
+<ul>
+<li><strong>A Code of Insured Persons' Rights</strong> — sets the standard of service you can expect during a claim</li>
+<li><strong>NHCover Dispute Resolution service</strong> — a free, independent service provided by Fair Way for disputes about NHCover claim outcomes</li>
+<li><strong>An independent review system</strong> — available when homeowners feel the Code has not been followed</li>
+</ul>
+<p>These pathways avoid the cost and delay of court proceedings, which proved to be a major source of distress for Canterbury claimants.</p>
+
+<h2>Other Notable Changes Under the NHI Act</h2>
+<h3>Heating Is Now a Covered Essential Service</h3>
+<p>The NHI Act expanded the list of essential services covered to include heating. Under the old EQC Act, water supply, drainage, sewerage, gas, electricity, and telephone services were covered. Heating is now added to this list.</p>
+
+<h3>Mixed-Use Buildings Get Better Protection</h3>
+<p>Apartment owners in mixed-use buildings (e.g., residential units above commercial premises) will find it easier to qualify for full NHCover under the revised 50% threshold criteria. Buildings that don't meet the threshold now receive proportionate cover for common and joint property — previously they received nothing.</p>
+
+<h3>Retaining Walls and Land Cover Clarifications</h3>
+<p>Retaining walls, bridges, and culverts may now be covered even when located outside the property boundary, provided the homeowner has an insurable interest (e.g., through a licence to occupy). The land cover cap for retaining walls is $50,000 plus GST, and $25,000 plus GST for bridges and culverts — with the NHI Act using undepreciated value rather than indemnity value for these structures.</p>
+
+<h2>What Hasn't Changed</h2>
+<p>Despite the reforms, several fundamentals remain constant:</p>
+<ul>
+<li>NHCover is automatic for any homeowner with a valid private buildings insurance policy</li>
+<li>Claims for natural hazard damage are lodged through your private insurer, who coordinates with the NHC</li>
+<li>The land cover area remains 8 metres around the home, plus up to 60 metres of driveway</li>
+<li>The $300,000 building cap is unchanged</li>
+<li>The annual levy is currently NZ$480</li>
+</ul>
+
+<h2>What This Means for Your Buildings Insurance</h2>
+<p>The NHC reforms don't change the core reason every NZ homeowner needs private buildings insurance: the NHC cap is a floor, not a ceiling. If your home costs more than $300,000 to rebuild — and the majority of family homes in Auckland, Wellington, and Christchurch now do — your private insurer covers the difference.</p>
+<p>Review your sum insured annually to ensure it reflects current rebuild costs. Construction material costs in New Zealand rose sharply through 2022–2024, and many policies set years ago are now underinsured by tens of thousands of dollars. <a href="/contact">Talk to one of our advisers</a> to ensure your cover is adequate and properly coordinated with NHCover.</p>`,
+  },
+
+  {
+    slug: 'home-underinsurance-nz-rebuild-cost-guide',
+    title: 'Is Your NZ Home Underinsured? The Hidden Risk Affecting Thousands of Kiwis',
+    excerpt: 'Underinsurance is one of the most common — and costly — mistakes NZ homeowners make. Here\'s how to calculate your true rebuild cost and avoid being left short when it matters most.',
+    date: '2026-04-21',
+    category: 'Guides',
+    author: 'Sarah Mitchell',
+    image: 'https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80',
+    readingTime: 8,
+    content: `<h2>The Underinsurance Problem in New Zealand</h2>
+<p>Underinsurance is one of the most widespread and underappreciated risks facing New Zealand homeowners. The problem is simple: you insure your home for less than it would actually cost to rebuild it. When disaster strikes, your insurer pays out up to your policy limit — and you cover the rest yourself.</p>
+<p>After major events like the Canterbury earthquakes and Cyclone Gabrielle, assessors discovered that a significant proportion of affected homes were insured for substantially less than their true rebuild value. Some homeowners faced rebuild shortfalls of $100,000 or more — money they had to find themselves at the worst possible time.</p>
+
+<h2>Why Underinsurance Happens</h2>
+<p>Most homeowners don't deliberately underinsure their properties. It happens gradually, through a combination of common mistakes:</p>
+<ul>
+<li><strong>Setting and forgetting:</strong> The sum insured is set when the policy is first taken out and never reviewed, even as rebuild costs rise with inflation</li>
+<li><strong>Using the purchase price:</strong> The market value of a property includes land — which is not insured. Your buildings insurance only needs to cover the rebuild cost of the structure, but many people use their purchase price as a starting point, which may be too high in some cases and dangerously low in others</li>
+<li><strong>Not accounting for construction cost inflation:</strong> NZ construction costs rose sharply through 2022–2024, driven by supply chain disruption, labour shortages, and material price increases. A sum insured set in 2020 may be 25–35% too low today</li>
+<li><strong>Forgetting permanent improvements:</strong> Renovations, extensions, new kitchens, and landscaping all add to the rebuild cost but are often not reported to the insurer</li>
+<li><strong>Ignoring site-specific costs:</strong> Demolition, debris removal, professional fees (architect, engineer, surveyor), and compliance with current building codes all add to a rebuild — sometimes by 15–20% above the raw construction cost</li>
+</ul>
+
+<h2>What Is the Rebuild Cost?</h2>
+<p>The rebuild cost — also called the replacement cost — is the amount it would cost to demolish the existing structure and rebuild your home to its current standard from scratch, on your existing site, using today's material and labour costs. It is not the same as:</p>
+<ul>
+<li>The market value of your property (which includes land)</li>
+<li>The rateable value (RV/CV) set by your local council</li>
+<li>The price you paid for the property</li>
+<li>What a neighbour's property sold for</li>
+</ul>
+<p>The rebuild cost depends on the size of the house (floor area in m²), construction type (timber frame, brick veneer, concrete block, etc.), quality of finishes (standard, mid-range, premium), location (regional construction costs vary significantly), and any special features (pool, workshop, sleepout, deck, retaining walls).</p>
+
+<h2>How to Calculate Your Rebuild Cost</h2>
+<h3>Option 1: Use the Cordell Sum Sure Calculator</h3>
+<p>The <a href="https://sumsure.corelogic.co.nz" target="_blank" rel="noopener noreferrer">Cordell Sum Sure Calculator</a> — developed by CoreLogic and widely used by NZ insurers and brokers — provides a free, reasonably accurate rebuild cost estimate based on your property details. It takes around five minutes to complete. While not a substitute for a professional valuation, it is a reliable starting point and is widely accepted by insurers as a reasonable basis for setting sums insured.</p>
+
+<h3>Option 2: Use a Quantity Surveyor or Registered Valuer</h3>
+<p>For high-value, unusual, or heritage properties, a professional insurance valuation from a registered valuer or quantity surveyor is the most accurate approach. Expect to pay $400–$1,500 depending on the property. This valuation should be updated every three to five years, or sooner following significant renovation.</p>
+
+<h3>Option 3: Review Your Insurer's Rebuild Cost Estimate</h3>
+<p>Some insurers provide their own estimate of your rebuild cost at renewal. Review this figure carefully — if it seems low relative to your understanding of current construction costs, query it with your adviser.</p>
+
+<h2>The Proportional Payout Problem</h2>
+<p>Some buildings insurance policies contain an "averaging" or "co-insurance" clause. If you are insured for less than the full rebuild cost and you make a claim — even for a partial loss like a damaged roof — your insurer may only pay a proportional share of the claim.</p>
+<p>For example: your home has a true rebuild value of $700,000 but you are insured for $500,000 — 71% of the actual value. You make a $100,000 claim for storm damage. With averaging applied, your insurer may pay only 71% of $100,000 — just $71,000 — leaving you $29,000 short, plus your excess.</p>
+<p>Not all policies apply averaging clauses, and some apply them only after you are more than a certain percentage underinsured. Ask your adviser whether your policy includes this clause and how it works.</p>
+
+<h2>Construction Costs in New Zealand: 2024–2026 Context</h2>
+<p>According to CoreLogic and BRANZ data, New Zealand construction costs rose an average of 7–10% per year between 2021 and 2024. While cost inflation eased in 2024–2025 as supply chains normalised, overall construction costs remain 30–40% higher than pre-2020 levels. This means a home insured in 2019 based on 2019 cost estimates is likely significantly underinsured today, even if the policy has had annual CPI adjustments applied.</p>
+<p>Labour shortages, particularly for tradespeople, continue to put upward pressure on rebuild timelines and costs. After a major event like an earthquake or severe weather, when many properties are damaged simultaneously, rebuild costs typically rise further due to demand pressure — a phenomenon insurers call "demand surge."</p>
+
+<h2>How to Fix Underinsurance</h2>
+<ol>
+<li><strong>Run a Cordell Calculator estimate</strong> for your current property details</li>
+<li><strong>Compare the result to your current sum insured</strong> — if there's a significant gap, contact your insurer or broker</li>
+<li><strong>List all permanent improvements</strong> you've made since the policy was set</li>
+<li><strong>Ask your adviser about inflation-linked sum insured options</strong> — some policies automatically adjust the sum insured annually based on construction cost indices</li>
+<li><strong>Set a reminder to review annually</strong>, ideally at renewal time</li>
+</ol>
+<p>Getting the right sum insured is one of the most important things you can do as a homeowner. <a href="/contact">Speak with one of our advisers</a> — they can help you assess whether your current cover is adequate and identify the best policy for your property.</p>`,
+  },
+
+  {
+    slug: 'nz-buildings-insurance-market-2026-soft-cycle',
+    title: 'NZ Buildings Insurance in 2026: Premiums Are Softening — Here\'s How Homeowners Benefit',
+    excerpt: 'New Zealand\'s general insurance market has entered a soft cycle. Gallagher and Marsh both confirm premiums are easing. Here\'s what this means for homeowners and property investors shopping for cover right now.',
+    date: '2026-04-14',
+    category: 'NZ Market',
+    author: 'James Thornton',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80',
+    readingTime: 6,
+    content: `<h2>The NZ Insurance Market Is in a Soft Phase</h2>
+<p>If you are renewing your buildings insurance in 2025 or 2026, you may be in a stronger negotiating position than at any point in the past five years. New Zealand's general insurance market entered what brokers describe as a "soft phase" in the second half of 2024, and conditions have continued to ease into 2026.</p>
+<p>According to Gallagher's March 2026 Insurance Market Update and Marsh's February 2026 New Zealand Market Update — two of the most widely followed industry reports in the NZ market — multiple factors are combining to create favourable conditions for buyers of property insurance.</p>
+
+<h2>What Is a Soft Insurance Market?</h2>
+<p>Insurance markets move in cycles. In a "hard" market (which NZ experienced through 2022–2024 following the Canterbury, Kaikōura, and Auckland Anniversary Weekend flood events), insurers raise premiums, tighten policy terms, and reduce capacity. In a "soft" market, the reverse occurs: more competition, lower premiums, broader cover, and more flexible terms.</p>
+<p>The current soft phase is being driven by:</p>
+<ul>
+<li><strong>Global insured losses 5% below the 10-year average in 2025</strong> — fewer major catastrophe events globally means reinsurers are well capitalised and willing to offer capacity at lower cost</li>
+<li><strong>Record global (re)insurance capital of approximately US$838 billion</strong> entering 2026 — more capital chasing business pushes prices down</li>
+<li><strong>Strong profitability for NZ's two major insurer groups</strong> — IAG (which includes NZI, State, and AMI) reported approximately 50% profit growth through the year to June 2025; Suncorp (Vero and AA Insurance) reported over 40% growth; QBE reported a 27% increase in its June 2025 half-year result</li>
+<li><strong>Global reinsurance costs easing over 12.5%</strong> in early 2026 — cheaper reinsurance reduces insurers' costs, and some of those savings are passed on in primary pricing</li>
+</ul>
+
+<h2>Who Are the Major Players in NZ Buildings Insurance?</h2>
+<p>Understanding the structure of the NZ market helps you compare offers more effectively. The market is dominated by two large insurer groups that between them account for the majority of residential buildings insurance in New Zealand:</p>
+<h3>IAG New Zealand</h3>
+<p>IAG operates through multiple brands in New Zealand, including <strong>NZI</strong> (commercial), <strong>State Insurance</strong> (direct to consumer), and <strong>AMI</strong> (direct to consumer). IAG reported gross written premium of approximately NZ$3.8 billion in 2023/24, making it the largest general insurer in the country. IAG's intermediated business (primarily NZI) fell 10.4% in its most recent half-year result — a reflection of the soft market rather than a loss of market position.</p>
+<h3>Suncorp New Zealand</h3>
+<p>Suncorp operates through <strong>Vero Insurance</strong> (commercial and broker-placed) and <strong>AA Insurance</strong> (direct consumer brand, offered through the AA membership network). Suncorp's NZ gross written premium declined 5.6% in its most recent result, also reflecting market softening rather than underlying weakness.</p>
+<h3>Other Significant Participants</h3>
+<p>QBE, Tower Insurance, Youi, and a number of Lloyd's-backed specialist insurers (particularly for high-value, commercial, or unusual properties) compete across various segments of the market. This diversity means consumers and businesses who use a broker can often access better pricing and terms than those who deal with a single direct insurer.</p>
+
+<h2>What Soft Market Conditions Mean for Homeowners</h2>
+<p>For residential policyholders, the practical effects of the soft market include:</p>
+<ul>
+<li><strong>More competitive premiums at renewal</strong> — if you haven't compared in the past two years, you may be paying above-market rates</li>
+<li><strong>Broader coverage terms</strong> — insurers competing for business are more willing to include optional extensions (gradual damage, replacement cost for older appliances, temporary accommodation upgrades) without significant premium loading</li>
+<li><strong>Reduced exclusions</strong> — some insurers that previously applied flood, landslide, or specific location exclusions following the 2023 North Island weather events are beginning to ease those restrictions, particularly for properties in lower-risk postcodes</li>
+<li><strong>Better response to risk improvements</strong> — if you have made structural improvements, installed a security system, re-roofed, or made other risk-reducing changes, now is an ideal time to report these and ask for a premium review</li>
+</ul>
+
+<h2>Caveats: What Could Reverse the Soft Cycle</h2>
+<p>Gallagher's report warns that a "tipping point" may occur within six months if falling premiums and normalised claims costs intersect, squeezing insurer margins. When that happens, insurers typically respond by tightening underwriting and raising rates. The broker expects early signs to include more selective risk assessment and narrower pricing relief for commercial risks — but residential lines may follow.</p>
+<p>Climate-related events remain the largest risk to the current soft market. The La Niña weather pattern, warmer sea surface temperatures, and increased tropical cyclone activity in the South Pacific could generate large weather-related losses that rapidly reverse current conditions. The July 2026 FENZ levy changes will also add to insurance-related costs across the board.</p>
+
+<h2>How to Take Advantage of Current Conditions</h2>
+<p>The best way to benefit from a soft market is to compare — and do so through a broker who can access multiple insurers simultaneously. Direct-to-consumer channels offer convenience, but brokers typically access the intermediated market (NZI, Vero) alongside direct brands, giving you more options.</p>
+<p>When reviewing your policy, consider:</p>
+<ul>
+<li>Whether your sum insured is up to date (see our guide on underinsurance)</li>
+<li>Whether your excess is appropriately set — a higher excess lowers premiums, but ensure it's affordable</li>
+<li>Whether optional extensions (gradual damage, temporary accommodation, extended liability) represent value at current pricing</li>
+<li>Whether any property improvements you've made qualify for a premium discount</li>
+</ul>
+<p><a href="/contact">Submit a quote request</a> and one of our licensed advisers will shop your property across the major NZ insurers to find the most competitive policy for your situation.</p>`,
+  },
+
+  {
+    slug: 'buildings-insurance-first-home-buyers-nz',
+    title: 'Buildings Insurance for First Home Buyers: Everything You Need to Know',
+    excerpt: 'Buying your first home in New Zealand? Your mortgage lender will require buildings insurance before settlement. Here\'s exactly what you need, when you need it, and how to get it right from day one.',
+    date: '2026-04-07',
+    category: 'Guides',
+    author: 'Sarah Mitchell',
+    image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80',
+    readingTime: 7,
+    content: `<h2>Your First Home: Don't Let Insurance Catch You Off-Guard</h2>
+<p>Buying your first home is one of the most exciting — and administratively intense — experiences of your life. Among the many tasks to complete before settlement, arranging buildings insurance is non-negotiable. Your bank or lender will require evidence of cover before they will release mortgage funds, and in most cases they need to see this within days of confirming your finance. Getting it wrong, or leaving it too late, can delay your settlement.</p>
+
+<h2>When Do You Need to Arrange Insurance?</h2>
+<p>Buildings insurance should be in place from the date your purchase goes unconditional — not from settlement. This is a critical point that many first-home buyers miss.</p>
+<p>Once your offer goes unconditional (meaning all conditions have been satisfied and the contract is binding), you have a legal and financial interest in the property. If the house burns down between going unconditional and settling, you could still be legally required to complete the purchase. Insurance protects you during this exposure window.</p>
+<p>Most lenders require confirmation of cover at least two to five working days before settlement. Build this into your timeline — don't leave it to the week of settlement when you have a hundred other things to do.</p>
+
+<h2>What Does Buildings Insurance Cover for First Home Buyers?</h2>
+<p>A standard buildings insurance policy covers the structure of your home — walls, roof, floors, windows, permanent fixtures, built-in appliances — against damage from insured events including:</p>
+<ul>
+<li>Fire and explosion</li>
+<li>Storm and flood damage</li>
+<li>Burst pipes and water damage</li>
+<li>Vandalism and malicious damage</li>
+<li>Subsidence (where not covered by NHCover)</li>
+<li>Accidental damage (optional on most policies)</li>
+</ul>
+<p>It does not cover your furniture, electronics, or personal belongings — that's what contents insurance is for. While most first-home buyers focus on buildings insurance (the lender requirement), a combined buildings and contents policy is usually worth considering from day one.</p>
+
+<h2>Natural Hazards Cover (NHCover) — Automatic Protection</h2>
+<p>When you take out a buildings insurance policy with a licensed NZ insurer, you automatically receive Natural Hazards Commission (NHC) cover — formerly called EQC cover. This covers your home against earthquake, tsunami, volcanic eruption, geothermal activity, storm, flood, and landslide damage up to $300,000 plus GST.</p>
+<p>You don't need to arrange this separately or pay for it separately — it is embedded in your buildings insurance premium at a cost of NZ$480 per year (a levy passed through your insurer). For first home buyers, this means your buildings policy delivers two layers of protection simultaneously.</p>
+
+<h2>Sum Insured vs. Full Replacement: Which Should You Choose?</h2>
+<p>When setting up your policy, one of the most important decisions is whether to insure on a <strong>sum insured</strong> or <strong>full replacement</strong> basis.</p>
+<h3>Sum Insured</h3>
+<p>You specify the maximum amount your insurer will pay to rebuild your home. This requires you to accurately estimate the rebuild cost. If you get it wrong — specifically if you underestimate — you may not receive enough to fully rebuild after a major claim. Many first-home buyers find this intimidating, but the <a href="https://sumsure.corelogic.co.nz" target="_blank" rel="noopener noreferrer">Cordell Sum Sure Calculator</a> provides a reliable free estimate based on your property details.</p>
+<h3>Full Replacement Cover</h3>
+<p>Some policies offer to pay whatever it costs to rebuild your home to its pre-loss standard, without a fixed cap (subject to policy conditions). This removes the burden of accurately estimating rebuild costs, but such policies are becoming less common and generally carry higher premiums.</p>
+<p>For most first-home buyers, a sum insured policy set using the Cordell calculator — reviewed annually — is the standard approach. Your adviser can help you set the right figure.</p>
+
+<h2>What Your Lender Wants to See</h2>
+<p>Your mortgage lender will typically require:</p>
+<ul>
+<li>A certificate of insurance (CoI) noting the property address and the lender's interest (often called "noting the mortgagee interest")</li>
+<li>The policy to be in the name(s) of the borrower(s)</li>
+<li>The sum insured to be at least equal to the outstanding loan amount (many lenders specify a minimum)</li>
+<li>Confirmation that the policy is active from the unconditional date (or at latest, the settlement date)</li>
+</ul>
+<p>Ask your insurer or broker to prepare a CoI addressed to your lender. This is standard practice and usually prepared within 24 hours of your policy being issued.</p>
+
+<h2>Factors That Affect Your Premium</h2>
+<p>As a first-home buyer, several factors will influence what you pay:</p>
+<ul>
+<li><strong>Location:</strong> Properties in high-risk earthquake zones (Wellington, Canterbury), flood-prone areas, or locations far from fire services attract higher premiums</li>
+<li><strong>Construction type:</strong> Timber frame homes typically attract lower premiums than brick or mixed construction in earthquake-prone areas</li>
+<li><strong>Roof type:</strong> Iron and concrete tile roofs have different risk profiles; some insurers price these differently</li>
+<li><strong>Age of the property:</strong> Homes built before 1980 may attract loading due to older electrical wiring, plumbing, and roofing materials</li>
+<li><strong>Your excess:</strong> A higher voluntary excess reduces your premium — typically a $1,000–$2,500 excess is appropriate for most first-home buyers</li>
+<li><strong>Security:</strong> Deadbolts, monitored alarms, and smoke detectors may attract small discounts depending on the insurer</li>
+</ul>
+
+<h2>Common Mistakes First Home Buyers Make with Buildings Insurance</h2>
+<ul>
+<li><strong>Leaving it too late:</strong> Don't wait until the week of settlement — arrange cover as soon as you go unconditional</li>
+<li><strong>Using the purchase price as the sum insured:</strong> Your buildings insurance should reflect the rebuild cost of the structure, not the market value of the property (which includes land)</li>
+<li><strong>Not noting the mortgagee:</strong> Your lender needs to be noted on the policy — this is their protection, not just yours</li>
+<li><strong>Only going to one insurer:</strong> Premiums for the same property can vary significantly between insurers. Use a broker to compare</li>
+<li><strong>Forgetting to update cover after renovations:</strong> If you renovate in your first few years, contact your insurer — your rebuild cost will have increased</li>
+</ul>
+
+<h2>Getting It Right from Day One</h2>
+<p>The right buildings insurance policy is one that adequately covers your rebuild cost, fits your budget, and is with an insurer your adviser trusts to pay claims fairly and promptly. <a href="/contact">Contact our team</a> as soon as your offer goes unconditional — we'll arrange quotes from multiple licensed NZ insurers and have your certificate of insurance ready for your lender within 24 hours.</p>`,
+  },
+
+  {
+    slug: 'severe-weather-home-damage-claims-guide-nz',
+    title: 'What to Do When Severe Weather Damages Your NZ Home: A Step-by-Step Guide',
+    excerpt: 'Severe weather events are becoming more frequent in New Zealand. If your home is damaged by storm, flooding, or a fallen tree, knowing exactly what to do — and in what order — can significantly improve your claims outcome.',
+    date: '2026-03-31',
+    category: 'Claims',
+    author: 'James Thornton',
+    image: 'https://images.unsplash.com/photo-1523772721666-22ad3753b16c?w=800&q=80',
+    readingTime: 6,
+    content: `<h2>Weather Events Are Increasing in New Zealand</h2>
+<p>Severe weather is not an occasional occurrence in New Zealand — it is a regular feature of our climate. In 2025, NZ insurers issued 36 separate weather-related event codes, generating thousands of claims from affected homeowners. The La Niña weather pattern, combined with warmer sea surface temperatures, is increasing the likelihood of tropical systems and periods of intense rainfall reaching New Zealand.</p>
+<p>Cyclone Gabrielle in February 2023 was the most costly weather event in NZ history, generating billions of dollars in insurance claims across Hawke's Bay, Gisborne, Northland, and Auckland. But significant storm events occur every year — and knowing what to do when one damages your home can make a material difference to how quickly and how fully your claim is settled.</p>
+
+<h2>Step 1: Prioritise Safety</h2>
+<p>Before anything else, make sure your household is safe. If your home has been seriously damaged:</p>
+<ul>
+<li>Evacuate if there is any risk of structural collapse, gas leak, or flooding</li>
+<li>Turn off electricity at the mains if you suspect water has entered electrical fittings</li>
+<li>Do not re-enter a significantly damaged building until it has been assessed by a builder or engineer</li>
+<li>Contact Civil Defence if a local emergency is declared — follow official guidance on evacuation zones</li>
+</ul>
+
+<h2>Step 2: Prevent Further Damage (Emergency Repairs)</h2>
+<p>Your buildings insurance policy almost certainly includes a provision allowing — and in some cases requiring — you to take immediate steps to prevent further damage after an insured event. This might mean:</p>
+<ul>
+<li>Placing tarpaulins over a damaged roof to prevent water ingress</li>
+<li>Boarding up broken windows or doors</li>
+<li>Arranging emergency tree removal if a fallen tree is causing ongoing structural damage</li>
+<li>Pumping out floodwater from a basement or ground floor</li>
+</ul>
+<p><strong>Keep all receipts for emergency repair costs.</strong> These are almost always claimable as part of your insurance claim. Most policies cover reasonable emergency repair costs incurred to prevent further loss, even before a formal claim assessment.</p>
+
+<h2>Step 3: Document Everything Before Cleaning Up</h2>
+<p>This is one of the most commonly skipped steps — and one of the most important. Before you clean up, repair, or dispose of anything:</p>
+<ul>
+<li><strong>Photograph and video the damage thoroughly</strong> — walk through every room, capture every affected surface, and document the exterior from multiple angles</li>
+<li><strong>Photograph the cause of damage if visible</strong> — a fallen tree, blocked gutter, damaged roof tile</li>
+<li><strong>Note the date and time of the weather event</strong> — your insurer will cross-reference with weather service records</li>
+<li><strong>Record serial numbers and model numbers</strong> of any built-in appliances or fixtures that are damaged</li>
+</ul>
+<p>Your insurer's loss assessor will use your documentation alongside their own assessment. Strong photographic evidence accelerates the claims process and reduces the likelihood of disputes about the extent of pre-existing damage versus event-caused damage.</p>
+
+<h2>Step 4: Contact Your Insurer Promptly</h2>
+<p>Notify your insurer as soon as it is practicable to do so — most policies require you to report damage "as soon as reasonably possible." In practice, this means contacting your insurer within a few days of the event, not weeks later.</p>
+<p>When you call or lodge your claim online:</p>
+<ul>
+<li>Have your policy number ready</li>
+<li>Describe the damage clearly and concisely — avoid speculation about the cause</li>
+<li>Ask for a claim reference number and the name of the person you spoke to</li>
+<li>Ask what the next steps are and what timeframe to expect</li>
+</ul>
+<p>After a significant weather event affecting multiple properties in your area, insurers receive a high volume of claims simultaneously. Claims response times may be longer than usual — this is normal, but following up after 5–7 working days without contact is reasonable.</p>
+
+<h2>Step 5: Understand the Assessor's Visit</h2>
+<p>For significant claims, your insurer will arrange for a loss assessor (sometimes called a loss adjuster) to visit your property. This person works for or on behalf of your insurer to assess the damage and determine what is covered under your policy.</p>
+<p>You are entitled to:</p>
+<ul>
+<li>Be present during the assessment</li>
+<li>Ask questions and take notes</li>
+<li>Engage your own independent assessor if you disagree with the insurer's assessment</li>
+<li>Request a copy of the assessor's report</li>
+</ul>
+<p>Be straightforward and factual when describing the damage and when it occurred. Do not exaggerate or speculate. Assessors are experienced at identifying pre-existing damage, and overclaiming can result in a claim being partially or fully declined.</p>
+
+<h2>Step 6: Know Your Rights — NHCover and Private Insurance</h2>
+<p>If the weather event includes flooding, storm, or landslide damage, your claim may involve both your private buildings insurer and the Natural Hazards Commission (NHC). Damage from these natural hazards is covered by NHCover up to $300,000 — your private insurer handles the excess above that cap.</p>
+<p>Under the new NHI Act 2023, you lodge all claims through your private insurer, who coordinates with the NHC on your behalf. You do not need to contact the NHC directly. If you are unhappy with the outcome of an NHC-related portion of your claim, you now have access to the free NHCover Dispute Resolution service provided by Fair Way.</p>
+
+<h2>Step 7: If Your Claim Is Declined or Disputed</h2>
+<p>If your insurer declines your claim — or offers a settlement you believe is too low — you have options:</p>
+<ul>
+<li><strong>Ask for the decision in writing</strong> and the specific policy clause they are relying on</li>
+<li><strong>Engage an independent loss assessor</strong> to provide a second opinion on the damage and quantum</li>
+<li><strong>Make a formal complaint</strong> to your insurer's internal complaints process</li>
+<li><strong>Escalate to the Insurance and Financial Services Ombudsman (IFSO)</strong> at <a href="https://www.ifso.nz" target="_blank" rel="noopener noreferrer">www.ifso.nz</a> — this is a free, independent dispute resolution service</li>
+</ul>
+<p>The IFSO scheme covers most NZ insurers and is the standard avenue for resolving insurance disputes without going to court. Most disputes are resolved through this process.</p>
+
+<h2>Being Prepared Before the Next Event</h2>
+<p>The best time to review your buildings insurance is not after a storm — it's before one. Check that your sum insured reflects current rebuild costs, understand what your policy does and doesn't cover, and make sure your insurer has your current contact details. If you're not sure whether your current cover is adequate, <a href="/contact">speak with one of our advisers</a> before the next weather event season.</p>`,
+  },
+
+  {
+    slug: 'buildings-insurance-excess-guide-nz',
+    title: 'Choosing the Right Excess for Your NZ Buildings Insurance Policy',
+    excerpt: 'Your insurance excess is one of the most significant levers you control when buying buildings insurance in New Zealand. Here\'s how to think about it — and how to set the right level for your situation.',
+    date: '2026-03-24',
+    category: 'Guides',
+    author: 'Sarah Mitchell',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80',
+    readingTime: 5,
+    content: `<h2>What Is an Insurance Excess?</h2>
+<p>An insurance excess — sometimes called a deductible — is the amount you agree to pay yourself when you make a claim, before your insurer pays anything. If you have a $500 excess and you make a $12,000 claim for storm damage, your insurer pays $11,500 and you pay $500.</p>
+<p>In New Zealand, buildings insurance policies typically include multiple types of excess that apply in different situations. Understanding each type — and choosing your voluntary excess level thoughtfully — can save you significant money on premiums without meaningfully increasing your financial risk.</p>
+
+<h2>Types of Excess in NZ Buildings Insurance</h2>
+<h3>Standard (Base) Excess</h3>
+<p>This applies to most standard claims — fire, theft, storm damage, burst pipes, and similar events. The base excess is set by your insurer (often in the range of $250–$500) but you can typically increase it voluntarily to reduce your premium. You cannot usually reduce it below the insurer's minimum.</p>
+
+<h3>Voluntary Excess</h3>
+<p>An additional excess you choose to add on top of the standard excess in exchange for a premium reduction. For example, selecting a $1,000 voluntary excess in addition to a $500 standard excess means you pay the first $1,500 of any claim. The premium saving varies by insurer, property, and risk profile — typically 5–20% of your annual premium for a moderate increase in voluntary excess.</p>
+
+<h3>NHCover (Natural Hazards) Excess</h3>
+<p>Since 1 July 2024, under the Natural Hazards Insurance Act 2023, the Natural Hazards Commission applies a flat <strong>$500 excess</strong> per insured home for both building and land claims. This replaced the previous variable percentage-based system. This excess applies specifically to the NHCover portion of a natural hazard claim — your private insurer may apply their own excess separately to the portion of the claim they cover.</p>
+
+<h3>Earthquake Excess</h3>
+<p>Some private insurers apply a separate, higher excess specifically for earthquake-related claims — particularly for the portion of the claim above the NHC cap. This is common for properties in high-seismic-risk zones (Wellington, Canterbury, parts of the Bay of Plenty). Always check whether your policy applies a special earthquake excess and, if so, how it interacts with the NHC flat excess.</p>
+
+<h3>Flood Excess</h3>
+<p>Following the 2023 North Island weather events, some insurers introduced specific flood excesses for properties in identified flood-prone areas. These may be fixed amounts (e.g., $5,000–$20,000) or percentage-based. If your property is in a flood zone — check your council's GIS hazard mapping — ask specifically whether a flood excess applies and what amount.</p>
+
+<h2>How Excess Affects Your Premium</h2>
+<p>The relationship between excess and premium is straightforward: a higher excess means a lower premium, because you are absorbing more risk yourself. The premium saving from increasing your excess is typically largest at lower excess levels and diminishes as the excess gets very high.</p>
+<p>As a rough guide for a typical NZ residential property:</p>
+<ul>
+<li>Moving from $500 to $1,000 voluntary excess: 5–10% premium reduction</li>
+<li>Moving from $500 to $2,500 voluntary excess: 10–20% premium reduction</li>
+<li>Moving from $500 to $5,000 voluntary excess: 15–25% premium reduction</li>
+</ul>
+<p>These figures vary considerably between insurers and property types. Your adviser can provide specific comparisons for your policy.</p>
+
+<h2>How to Choose the Right Excess Level</h2>
+<p>The right excess level depends on two things: your financial resilience (can you comfortably pay this amount if a claim occurs?) and your claims likelihood (how often do you expect to claim?).</p>
+<h3>The "Self-Insurance Threshold" Approach</h3>
+<p>Think of your excess as defining the level of damage you will self-insure — i.e., cover yourself without making a claim. Many homeowners find it makes sense to set their excess at a level where, for minor damage, they would simply repair it themselves rather than claiming. Claiming for small amounts raises your premium at renewal (claims history is a pricing factor) and consumes time and administration.</p>
+<p>For most homeowners, this suggests a voluntary excess of $1,000–$2,500 is appropriate. For higher-net-worth homeowners with liquid savings, a $5,000 or even $10,000 voluntary excess can deliver meaningful premium savings in exchange for what is, for them, a manageable self-funded cost.</p>
+
+<h3>Consider Your Emergency Fund</h3>
+<p>A simple rule: don't set your voluntary excess higher than the cash you could access within 30 days. If you have $2,000 in easily accessible savings, a $5,000 voluntary excess leaves you exposed if a claim occurs at a financially inconvenient time.</p>
+
+<h3>First Home Buyers and Lower Excess</h3>
+<p>If you have just purchased your first home and stretched your savings to do so, a lower voluntary excess (or no voluntary excess above the insurer's standard) may be appropriate in the early years, even if it costs slightly more in premium. As your savings recover, you can increase the excess at renewal to reduce costs.</p>
+
+<h2>When You Make a Claim: Excess Stacking</h2>
+<p>Be aware that in some situations, multiple excesses can apply to a single claim. For example, after an earthquake that also causes water damage, you might face:</p>
+<ul>
+<li>NHC excess: $500</li>
+<li>Private insurer standard excess: $500</li>
+<li>Private insurer earthquake excess: $2,000 (if applicable for your area)</li>
+</ul>
+<p>Always ask your adviser to walk you through how excesses stack under your specific policy before you commit. This is particularly important in Wellington and other high-seismic-risk areas where earthquake-specific excesses are more common.</p>
+
+<h2>Review Your Excess Annually</h2>
+<p>Your excess should not be set and forgotten. Review it at each renewal in the context of your current savings position, any changes to your property risk profile, and current market pricing. In a soft market (as NZ is experiencing in 2025–2026), insurer competition means better excess/premium combinations are available than in recent years.</p>
+<p><a href="/contact">Speak with one of our licensed advisers</a> to find the right excess level for your situation. They can run comparisons across multiple NZ insurers to show you exactly how much premium you save at different excess levels for your specific property.</p>`,
+  },
 ];

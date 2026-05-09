@@ -271,7 +271,7 @@ export default function ResidentialPage() {
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white text-emerald-600 font-bold rounded-lg hover:bg-emerald-50 transition-colors"
               >
                 <Phone size={20} />
-                Get a Free Quote
+                Get a Quote
               </Link>
             </section>
 

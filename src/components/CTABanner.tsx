@@ -7,7 +7,7 @@ interface CTABannerProps {
 
 export default function CTABanner({
   heading = 'Ready to Protect Your Property?',
-  subheading = "Get a free quote from NZ's top insurers in just 2 minutes.",
+  subheading = "Get a quote from NZ's top insurers in just 2 minutes.",
 }: CTABannerProps) {
   return (
     <div className="relative overflow-hidden bg-gradient-to-r from-emerald-900 via-slate-900 to-slate-900 py-16 lg:py-20">
@@ -29,7 +29,7 @@ export default function CTABanner({
               href="/contact"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-emerald-600 font-semibold py-3 px-8 rounded-lg transition-colors w-full sm:w-auto"
             >
-              Get a Free Quote
+              Get a Quote
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
                   strokeLinecap="round"

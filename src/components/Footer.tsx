@@ -55,9 +55,9 @@ export default function Footer() {
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* About */}
-          <div>
+          <div className="md:col-span-1">
             <div className="mb-4">
               <Logo variant="white" />
             </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                 { label: 'Home', href: '/' },
                 { label: 'Coverage', href: '/coverage' },
                 { label: 'Compare', href: '/compare' },
-                { label: 'Blog', href: '/blog' },
+                { label: 'Resources', href: '/blog' },
                 { label: 'About', href: '/about' },
                 { label: 'Making a Claim', href: '/claims' },
                 { label: 'Contact', href: '/contact' },
@@ -113,6 +113,31 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Regions */}
+          <div>
+            <h3 className="font-semibold text-white mb-4">By Region</h3>
+            <ul className="space-y-2">
+              {[
+                { label: 'Auckland', href: '/regions/auckland' },
+                { label: 'Wellington', href: '/regions/wellington' },
+                { label: 'Christchurch', href: '/regions/christchurch' },
+                { label: 'Hamilton', href: '/regions/hamilton' },
+                { label: "Hawke's Bay", href: '/regions/hawkes-bay' },
+                { label: 'Queenstown', href: '/regions/queenstown' },
+                { label: 'View All Regions →', href: '/regions' },
+              ].map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-slate-400 hover:text-emerald-400 transition-colors text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h3 className="font-semibold text-white mb-4">Contact</h3>
@@ -124,15 +149,6 @@ export default function Footer() {
                 >
                   hello@cover4you.co.nz
                 </a>
-              </li>
-              <li>
-                <a
-                  href="tel:09-885-9549"
-                  className="text-slate-400 hover:text-emerald-400 transition-colors text-sm"
-                >
-                  09 885 9549
-                </a>
-                <p className="text-slate-500 text-xs mt-1">Quote BI for best prices</p>
               </li>
               <li className="flex gap-4 pt-2">
                 <a href="https://facebook.com" className="text-slate-400 hover:text-emerald-400 transition-colors">

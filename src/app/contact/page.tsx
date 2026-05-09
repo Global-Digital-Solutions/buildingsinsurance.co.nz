@@ -5,12 +5,12 @@ import QuoteForm from '@/components/QuoteForm';
 import { faqs } from '@/data/faqs';
 
 export const metadata: Metadata = {
-  title: 'Contact BuildingsInsurance.co.nz | Get Your Free Quote',
-  description: 'Contact our NZ insurance experts for a free buildings insurance quote. Get expert advice and the best rates today.',
+  title: 'Contact BuildingsInsurance.co.nz | Get a Quote',
+  description: 'Contact our NZ insurance experts for a buildings insurance quote. Get expert advice and the best rates today.',
   alternates: { canonical: 'https://buildingsinsurance.co.nz/contact/' },
   openGraph: {
-    title: 'Contact BuildingsInsurance.co.nz | Get Your Free Quote',
-    description: 'Get a free buildings insurance quote from our NZ experts.',
+    title: 'Contact BuildingsInsurance.co.nz | Get a Quote',
+    description: 'Get a buildings insurance quote from our NZ experts.',
     url: 'https://buildingsinsurance.co.nz/contact/',
     images: ['https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&h=630&fit=crop'],
   },
@@ -77,7 +77,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white text-center mb-4">
-            Get Your Free Buildings Insurance Quote
+            Get Your Buildings Insurance Quote
           </h1>
           <p className="text-base sm:text-lg text-slate-200 text-center max-w-2xl">
             Let our NZ experts help you find the perfect coverage at the best rates
@@ -246,7 +246,7 @@ export default function ContactPage() {
             Don't Wait - Get Protected Today
           </h2>
           <p className="text-emerald-50 mb-8 text-lg">
-            Our quick quote process takes just 5 minutes. Start your free comparison right now.
+            Our quick quote process takes just 5 minutes. Start your comparison right now.
           </p>
           <Link
             href="#"

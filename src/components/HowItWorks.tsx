@@ -99,7 +99,7 @@ export default function HowItWorks() {
           }`}
         >
           <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/15 border border-emerald-500/30 px-4 py-1.5 text-sm font-semibold text-emerald-400 mb-4">
-            Simple. Fast. Free.
+            Simple. Fast. No Fees.
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             How It Works
@@ -185,7 +185,7 @@ export default function HowItWorks() {
             href="#quote-form"
             className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 px-10 rounded-xl transition-all duration-200 hover:-translate-y-0.5 shadow-lg shadow-emerald-900/50 hover:shadow-emerald-900/70 text-lg"
           >
-            Get My Free Quote
+            Get My Quote
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

@@ -21,7 +21,8 @@ export default function Header() {
   const navLinks = [
     { label: 'Coverage', href: '/coverage' },
     { label: 'Compare', href: '/compare' },
-    { label: 'Blog', href: '/blog' },
+    { label: 'Regions', href: '/regions' },
+    { label: 'Resources', href: '/blog' },
   ];
 
   const sectors = [
@@ -94,7 +95,7 @@ export default function Header() {
               href="/contact"
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-lg font-medium transition-colors"
             >
-              Get a Free Quote
+              Get a Quote
             </Link>
           </div>
 
@@ -179,7 +180,7 @@ export default function Header() {
                 className="block bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-lg font-medium transition-colors text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Get a Free Quote
+                Get a Quote
               </Link>
             </div>
           </div>

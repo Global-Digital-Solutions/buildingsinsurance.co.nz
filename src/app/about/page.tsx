@@ -106,8 +106,8 @@ const values = [
 
 const whyChooseUs = [
   {
-    title: 'Free Comparison',
-    description: 'No hidden fees, no charges. Compare quotes from multiple insurers completely free.',
+    title: 'No-Fee Comparison',
+    description: 'No hidden fees, no charges. Compare quotes from multiple insurers at no cost.',
   },
   {
     title: 'Expert Advisers',
@@ -451,13 +451,13 @@ export default function AboutPage() {
             Ready to Find the Right Coverage?
           </h2>
           <p className="text-emerald-50 mb-8 text-lg">
-            Get started with your free buildings insurance quote today and save up to 40% on premiums.
+            Get started with your buildings insurance quote today and save up to 40% on premiums.
           </p>
           <Link
             href="/contact"
             className="inline-block px-8 py-4 bg-sky-500 hover:bg-sky-600 text-white font-bold rounded-lg transition-colors"
           >
-            Get Your Free Quote
+            Get Your Quote
           </Link>
         </div>
       </section>

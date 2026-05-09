@@ -4,11 +4,11 @@ import Image from 'next/image';
 import { blogPosts } from '@/data/blog-posts';
 
 export const metadata: Metadata = {
-  title: 'Buildings Insurance Blog NZ | Guides & Insights',
+  title: 'Buildings Insurance Resources NZ | Guides & Insights',
   description: 'Expert guides and insights on buildings insurance in New Zealand. Learn about coverage, costs, and protection for your property.',
   alternates: { canonical: 'https://buildingsinsurance.co.nz/blog/' },
   openGraph: {
-    title: 'Buildings Insurance Blog NZ | Guides & Insights',
+    title: 'Buildings Insurance Resources NZ | Guides & Insights',
     description: 'Expert guides and insights on buildings insurance in New Zealand.',
     url: 'https://buildingsinsurance.co.nz/blog/',
     images: ['https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=630&fit=crop'],
@@ -20,7 +20,8 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
   'Landlord': { bg: 'bg-sky-100', text: 'text-sky-700' },
   'Claims': { bg: 'bg-amber-100', text: 'text-amber-700' },
   'Coverage': { bg: 'bg-violet-100', text: 'text-violet-700' },
-  'NZ Market': { bg: 'bg-slate-100', text: 'text-slate-700' },
+  'NZ Market': { bg: 'bg-rose-100', text: 'text-rose-700' },
+  'Guides': { bg: 'bg-teal-100', text: 'text-teal-700' },
 };
 
 export default function BlogPage() {
@@ -38,7 +39,7 @@ export default function BlogPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-900/40" />
         <div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-white text-center mb-4">
-            Buildings Insurance Blog
+            Buildings Insurance Resources
           </h1>
           <p className="text-base sm:text-lg text-slate-200 text-center max-w-2xl">
             Expert guides, insights, and everything you need to know about protecting your New Zealand property

@@ -62,39 +62,75 @@ export const metadata: Metadata = {
 
 const organizationSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
+  '@type': ['Organization', 'FinancialService'],
+  '@id': 'https://buildingsinsurance.co.nz/#organization',
   name: 'BuildingsInsurance.co.nz',
+  legalName: 'Buildings Insurance New Zealand',
   url: 'https://buildingsinsurance.co.nz',
-  logo: 'https://buildingsinsurance.co.nz/logo.png',
-  description: 'New Zealand\'s independent buildings insurance comparison and advisory service.',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://buildingsinsurance.co.nz/logo.png',
+    width: 200,
+    height: 60,
+  },
+  image: 'https://buildingsinsurance.co.nz/og-image.png',
+  description: 'New Zealand\'s independent buildings insurance broker referral service. We connect NZ homeowners, landlords, and commercial property owners with licensed local insurance advisers.',
+  email: 'hello@cover4you.co.nz',
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+64-800-268-374',
     contactType: 'customer service',
     email: 'hello@cover4you.co.nz',
     areaServed: 'NZ',
     availableLanguage: 'English',
+    hoursAvailable: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:30',
+      closes: '17:30',
+    },
   },
-  sameAs: [],
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'NZ',
+    addressRegion: 'Auckland',
+  },
   areaServed: {
     '@type': 'Country',
     name: 'New Zealand',
   },
+  knowsAbout: [
+    'Buildings Insurance',
+    'Home Insurance New Zealand',
+    'Earthquake Insurance NZ',
+    'Natural Hazards Commission',
+    'Landlord Insurance',
+    'Body Corporate Insurance',
+    'Commercial Buildings Insurance',
+  ],
+  serviceType: 'Insurance Broker Referral',
+  sameAs: [
+    'https://www.facebook.com/buildingsinsurancenz',
+    'https://www.linkedin.com/company/buildingsinsurancenz',
+  ],
 };
 
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': 'https://buildingsinsurance.co.nz/#website',
   name: 'BuildingsInsurance.co.nz',
   url: 'https://buildingsinsurance.co.nz',
-  description: 'Compare buildings insurance quotes from leading NZ insurers. Free, no-obligation quotes for residential, commercial, landlord, and body corporate properties.',
+  description: 'Compare buildings insurance quotes from leading NZ insurers. No-obligation quotes for residential, commercial, landlord, and body corporate properties.',
+  inLanguage: 'en-NZ',
   publisher: {
-    '@type': 'Organization',
-    name: 'BuildingsInsurance.co.nz',
+    '@id': 'https://buildingsinsurance.co.nz/#organization',
   },
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://buildingsinsurance.co.nz/blog/?q={search_term_string}',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://buildingsinsurance.co.nz/blog/?q={search_term_string}',
+    },
     'query-input': 'required name=search_term_string',
   },
 };

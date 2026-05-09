@@ -78,7 +78,7 @@ const CTABlock = ({ variant = 'primary' }: { variant?: 'primary' | 'secondary' |
         </div>
         <div className="flex flex-wrap gap-3">
           <Link href="/contact" className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-6 rounded-lg transition-all hover:shadow-lg hover:shadow-emerald-500/25">
-            Get a Free Quote <ArrowRight className="w-4 h-4" />
+            Get a Quote <ArrowRight className="w-4 h-4" />
           </Link>
           <Link href="tel:09-885-9549" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold py-3 px-6 rounded-lg transition-all border border-white/20">
             Call 09 885 9549
@@ -115,11 +115,11 @@ const CTABlock = ({ variant = 'primary' }: { variant?: 'primary' | 'secondary' |
         </div>
         <div>
           <h3 className="text-xl font-bold text-white">Ready to save on your buildings insurance?</h3>
-          <p className="text-emerald-100 mt-1">Get free, no-obligation quotes from all 6 NZ insurers in under 2 minutes.</p>
+          <p className="text-emerald-100 mt-1">Get no-obligation quotes from all 6 NZ insurers in under 2 minutes.</p>
         </div>
       </div>
       <Link href="/contact" className="inline-flex items-center gap-2 bg-white hover:bg-emerald-50 text-emerald-700 font-semibold py-3 px-6 rounded-lg transition-all hover:shadow-lg whitespace-nowrap">
-        Get My Free Quote <ArrowRight className="w-4 h-4" />
+        Get My Quote <ArrowRight className="w-4 h-4" />
       </Link>
     </div>
   );
@@ -481,7 +481,7 @@ export default function ComparePage() {
         {/* ───── SECTION 5: Final Quote Form ───── */}
         <section className="bg-gradient-to-br from-emerald-600 via-emerald-700 to-sky-700 rounded-2xl p-10 md:p-14 text-white mb-20 shadow-xl">
           <div className="text-center mb-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">Get Your Free Quote Today</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">Get Your Quote Today</h2>
             <p className="text-lg text-emerald-100 max-w-2xl mx-auto">
               Compare personalised quotes from all major NZ buildings insurance providers. Takes less than 2 minutes.
             </p>

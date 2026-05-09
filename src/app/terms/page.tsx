@@ -52,7 +52,7 @@ export default function TermsPage() {
               <li>Connect with licensed buildings insurance advisers and brokers</li>
               <li>Access educational information about insurance coverage options</li>
               <li>Understand what to look for in a buildings insurance policy</li>
-              <li>Request a free, no-obligation quote via our referral network</li>
+              <li>Request a no-obligation quote via our referral network</li>
             </ul>
             <p className="text-slate-700 mb-4">
               <strong>Important:</strong> BuildingsInsurance.co.nz is a referral service only. We do not provide
