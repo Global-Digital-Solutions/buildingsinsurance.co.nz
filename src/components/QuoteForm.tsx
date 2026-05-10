@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const WORKER_URL = 'https://shiny-bush-41cd.darinbutler.workers.dev';
+const WORKER_URL = '/api/submit-form';
 
 interface QuoteFormProps {
   compact?: boolean;
@@ -26,7 +26,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          subject: 'Buildings Insurance Quote Request — BuildingsInsurance.co.nz',
+          _subject: 'Buildings Insurance Quote Request — BuildingsInsurance.co.nz',
           ...formData,
         }),
       });
@@ -87,6 +87,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
   if (compact) {
     return (
       <form onSubmit={handleSubmit} className="space-y-4">
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         {trustBadges}
         <div>
           <label htmlFor="name" className={labelClass}>Full Name <span className="text-red-500">*</span></label>
@@ -140,6 +141,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
       </div>
 
       <form onSubmit={handleSubmit} className="p-8">
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <div className="space-y-5">
           <div>
             <label htmlFor="name" className={labelClass}>Full Name <span className="text-red-500">*</span></label>
