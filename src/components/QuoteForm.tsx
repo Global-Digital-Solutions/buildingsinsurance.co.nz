@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Script from 'next/script';
 
 const WORKER_URL = '/api/submit-form';
 
@@ -20,6 +21,15 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    const formEl = e.currentTarget;
+    const fd = new FormData(formEl);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setState('error');
+      return;
+    }
+
     setState('submitting');
     try {
       const res = await fetch(WORKER_URL, {
@@ -28,6 +38,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         body: JSON.stringify({
           _subject: 'Buildings Insurance Quote Request — BuildingsInsurance.co.nz',
           ...formData,
+          cfTurnstileToken: cfToken,
         }),
       });
       if (!res.ok) throw new Error('Submit failed');
@@ -107,7 +118,11 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
           <label htmlFor="details" className={labelClass}>Additional Details</label>
           <textarea id="details" name="details" placeholder="Tell us more about your property (optional)..." rows={2} value={formData.details} onChange={handleChange} className={`${inputClass} resize-none`} />
         </div>
-        {state === 'error' && <p className="text-red-600 text-sm text-center">Something went wrong. Please try again or email hello@cover4you.co.nz</p>}
+        {state === 'error' && <p className="text-red-600 text-sm text-center">Something went wrong. Please complete the security check and try again.</p>}
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="flex justify-center">
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+        </div>
         <div className="pt-2">
           <button type="submit" disabled={state === 'submitting'} className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400 text-white font-bold py-3.5 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/40 hover:-translate-y-0.5">
             {state === 'submitting' ? 'Sending...' : 'Get My Quote'}
@@ -185,7 +200,12 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
           </div>
         </div>
 
-        {state === 'error' && <p className="mt-4 text-red-600 text-sm text-center">Something went wrong. Please try again or email hello@cover4you.co.nz</p>}
+        {state === 'error' && <p className="mt-4 text-red-600 text-sm text-center">Something went wrong. Please complete the security check and try again.</p>}
+
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="mt-6 flex justify-center">
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+        </div>
 
         <div className="mt-8">
           <button type="submit" disabled={state === 'submitting'} className="w-full bg-emerald-600 hover:bg-emerald-700 disabled:bg-slate-400 text-white font-bold py-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 text-lg shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/40 hover:-translate-y-0.5">
