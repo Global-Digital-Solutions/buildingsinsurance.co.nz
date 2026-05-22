@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Home Rebuild Cost Calculator NZ | Check Your Sum-Insured',
     description: 'NZ rebuild costs have risen 35–45% since 2019. Use this estimator to check whether your buildings insurance sum-insured still reflects your true rebuild cost.',
-    url: 'https://buildingsinsurance.co.nz/rebuild-cost-calculator/',
+    url: 'https://www.buildingsinsurance.co.nz/rebuild-cost-calculator/',
   },
 };
 

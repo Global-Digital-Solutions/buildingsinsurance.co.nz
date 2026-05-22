@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cheap Buildings Insurance NZ | How to Reduce Your Premium',
     description: 'Compare NZ buildings insurance and find ways to lower your premium without sacrificing the cover you actually need.',
-    url: 'https://buildingsinsurance.co.nz/cheap-buildings-insurance/',
+    url: 'https://www.buildingsinsurance.co.nz/cheap-buildings-insurance/',
   },
 };
 
@@ -47,18 +47,18 @@ const schemaCheap = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz/' },
-      { '@type': 'ListItem', position: 2, name: 'Affordable Buildings Insurance', item: 'https://buildingsinsurance.co.nz/cheap-buildings-insurance/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Affordable Buildings Insurance', item: 'https://www.buildingsinsurance.co.nz/cheap-buildings-insurance/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://buildingsinsurance.co.nz/cheap-buildings-insurance/',
+    '@id': 'https://www.buildingsinsurance.co.nz/cheap-buildings-insurance/',
     name: 'Affordable Buildings Insurance NZ | How to Reduce Your Premium',
     description: 'What drives NZ buildings insurance premiums and 6 legitimate ways to reduce your cost without sacrificing cover.',
     inLanguage: 'en-NZ',
-    isPartOf: { '@id': 'https://buildingsinsurance.co.nz/#website' },
+    isPartOf: { '@id': 'https://www.buildingsinsurance.co.nz/#website' },
   },
 ];
 

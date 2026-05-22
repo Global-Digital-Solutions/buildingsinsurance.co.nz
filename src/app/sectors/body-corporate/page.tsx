@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Body Corporate Insurance NZ | Unit Titles Act Protection',
     description: 'Mandatory body corporate buildings insurance for unit title properties. Shared structure coverage, full replacement, and public liability explained.',
-    url: 'https://buildingsinsurance.co.nz/sectors/body-corporate/',
+    url: 'https://www.buildingsinsurance.co.nz/sectors/body-corporate/',
   },
   alternates: {
     canonical: 'https://www.buildingsinsurance.co.nz/sectors/body-corporate/',
@@ -602,11 +602,11 @@ export default function BodyCorporatePage() {
           provider: {
             '@type': 'Organization',
             name: 'BuildingsInsurance.co.nz',
-            url: 'https://buildingsinsurance.co.nz'
+            url: 'https://www.buildingsinsurance.co.nz'
           },
           areaServed: { '@type': 'Country', name: 'New Zealand' },
           serviceType: 'Insurance Comparison',
-          url: 'https://buildingsinsurance.co.nz/sectors/body-corporate/'
+          url: 'https://www.buildingsinsurance.co.nz/sectors/body-corporate/'
         }) }}
       />
     </main>

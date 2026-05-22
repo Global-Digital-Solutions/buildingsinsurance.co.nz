@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About BuildingsInsurance.co.nz | NZ Property Insurance Experts',
     description: 'Learn about our mission to help NZ property owners find the right buildings insurance.',
-    url: 'https://buildingsinsurance.co.nz/about/',
+    url: 'https://www.buildingsinsurance.co.nz/about/',
     images: ['https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&h=630&fit=crop'],
   },
 };

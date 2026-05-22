@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Underinsurance NZ | Are You Underinsured?',
     description: 'With NZ rebuild costs up 35–45% since 2019, your 2020 sum-insured may leave you $100,000+ short after a total loss. Find out how to check.',
-    url: 'https://buildingsinsurance.co.nz/underinsurance/',
+    url: 'https://www.buildingsinsurance.co.nz/underinsurance/',
   },
 };
 
@@ -76,18 +76,18 @@ const schemaUnderinsurance = [
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://buildingsinsurance.co.nz/" },
-      { "@type": "ListItem", "position": 2, "name": "Underinsurance NZ", "item": "https://buildingsinsurance.co.nz/underinsurance/" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.buildingsinsurance.co.nz/" },
+      { "@type": "ListItem", "position": 2, "name": "Underinsurance NZ", "item": "https://www.buildingsinsurance.co.nz/underinsurance/" }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://buildingsinsurance.co.nz/underinsurance/",
+    "@id": "https://www.buildingsinsurance.co.nz/underinsurance/",
     "name": "Are You Underinsured? NZ Buildings Insurance Guide",
     "description": "With NZ rebuild costs up 35-45% since 2019, many homes are underinsured. Find out what that means at claim time.",
     "inLanguage": "en-NZ",
-    "isPartOf": { "@id": "https://buildingsinsurance.co.nz/#website" }
+    "isPartOf": { "@id": "https://www.buildingsinsurance.co.nz/#website" }
   }
 ];
 

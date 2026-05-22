@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'New Build Insurance NZ | Buildings Insurance for New Homes',
     description: 'Buying or building a new home in NZ? Find out exactly what insurance you need, when you need it, and how to make sure you\'re covered from day one.',
-    url: 'https://buildingsinsurance.co.nz/new-build-insurance/',
+    url: 'https://www.buildingsinsurance.co.nz/new-build-insurance/',
   },
 };
 
@@ -82,18 +82,18 @@ const schemaNewBuild = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz/' },
-      { '@type': 'ListItem', position: 2, name: 'New Build Insurance', item: 'https://buildingsinsurance.co.nz/new-build-insurance/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'New Build Insurance', item: 'https://www.buildingsinsurance.co.nz/new-build-insurance/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://buildingsinsurance.co.nz/new-build-insurance/',
+    '@id': 'https://www.buildingsinsurance.co.nz/new-build-insurance/',
     name: 'Buildings Insurance for New Builds NZ',
     description: 'What insurance you need at each stage when buying or building a new home in NZ — from construction through to settlement.',
     inLanguage: 'en-NZ',
-    isPartOf: { '@id': 'https://buildingsinsurance.co.nz/#website' },
+    isPartOf: { '@id': 'https://www.buildingsinsurance.co.nz/#website' },
   },
 ];
 

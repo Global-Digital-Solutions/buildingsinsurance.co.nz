@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Buildings Insurance NZ | Compare & Save',
     description: 'Find the best buildings insurance for your NZ home. Compare quotes from top insurers, understand EQC coverage, and protect your property.',
-    url: 'https://buildingsinsurance.co.nz',
+    url: 'https://www.buildingsinsurance.co.nz',
     siteName: 'BuildingsInsurance.co.nz',
     images: [
       {
@@ -63,17 +63,17 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': ['Organization', 'FinancialService'],
-  '@id': 'https://buildingsinsurance.co.nz/#organization',
+  '@id': 'https://www.buildingsinsurance.co.nz/#organization',
   name: 'BuildingsInsurance.co.nz',
   legalName: 'Buildings Insurance New Zealand',
-  url: 'https://buildingsinsurance.co.nz',
+  url: 'https://www.buildingsinsurance.co.nz',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://buildingsinsurance.co.nz/logo.png',
+    url: 'https://www.buildingsinsurance.co.nz/logo.png',
     width: 200,
     height: 60,
   },
-  image: 'https://buildingsinsurance.co.nz/og-image.png',
+  image: 'https://www.buildingsinsurance.co.nz/og-image.png',
   description: 'New Zealand\'s independent buildings insurance broker referral service. We connect NZ homeowners, landlords, and commercial property owners with licensed local insurance advisers.',
   email: 'hello@cover4you.co.nz',
   contactPoint: {
@@ -108,28 +108,25 @@ const organizationSchema = {
     'Commercial Buildings Insurance',
   ],
   serviceType: 'Insurance Broker Referral',
-  sameAs: [
-    'https://www.facebook.com/buildingsinsurancenz',
-    'https://www.linkedin.com/company/buildingsinsurancenz',
-  ],
+  sameAs: [],
 };
 
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  '@id': 'https://buildingsinsurance.co.nz/#website',
+  '@id': 'https://www.buildingsinsurance.co.nz/#website',
   name: 'BuildingsInsurance.co.nz',
-  url: 'https://buildingsinsurance.co.nz',
+  url: 'https://www.buildingsinsurance.co.nz',
   description: 'Compare buildings insurance quotes from leading NZ insurers. No-obligation quotes for residential, commercial, landlord, and body corporate properties.',
   inLanguage: 'en-NZ',
   publisher: {
-    '@id': 'https://buildingsinsurance.co.nz/#organization',
+    '@id': 'https://www.buildingsinsurance.co.nz/#organization',
   },
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://buildingsinsurance.co.nz/blog/?q={search_term_string}',
+      urlTemplate: 'https://www.buildingsinsurance.co.nz/blog/?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

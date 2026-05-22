@@ -6,9 +6,10 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   async redirects() {
     return [
+      // Direct redirect to avoid two-hop chain (/faq → /faq/ → /faqs/)
       {
         source: '/faq',
-        destination: '/faqs',
+        destination: '/faqs/',
         permanent: true,
       },
       {

@@ -21,11 +21,11 @@ export async function generateMetadata({
   return {
     title: region.metaTitle,
     description: region.metaDescription,
-    alternates: { canonical: `https://buildingsinsurance.co.nz/regions/${region.slug}/` },
+    alternates: { canonical: `https://www.buildingsinsurance.co.nz/regions/${region.slug}/` },
     openGraph: {
       title: region.metaTitle,
       description: region.metaDescription,
-      url: `https://buildingsinsurance.co.nz/regions/${region.slug}/`,
+      url: `https://www.buildingsinsurance.co.nz/regions/${region.slug}/`,
       images: [region.heroImage],
     },
   };

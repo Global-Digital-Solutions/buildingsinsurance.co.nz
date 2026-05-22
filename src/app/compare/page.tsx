@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
     description: 'Compare top NZ buildings insurance providers side-by-side. AMI, State, Tower, AA, Vero, NZI rated and compared.',
-    url: 'https://buildingsinsurance.co.nz/compare/',
+    url: 'https://www.buildingsinsurance.co.nz/compare/',
   },
 };
 
@@ -533,7 +533,7 @@ export default function ComparePage() {
           '@type': 'WebPage',
           name: 'Compare NZ Buildings Insurance Providers',
           description: 'Side-by-side comparison of top NZ buildings insurance providers including AMI, State, Tower, AA Insurance, Vero, and NZI.',
-          url: 'https://buildingsinsurance.co.nz/compare/',
+          url: 'https://www.buildingsinsurance.co.nz/compare/',
           mainEntity: {
             '@type': 'ItemList',
             itemListElement: [

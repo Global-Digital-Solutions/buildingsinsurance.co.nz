@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Buildings Insurance by Region | NZ City & Area Guides',
     description: 'Local buildings insurance guides for every major NZ city and region — from Auckland\'s volcanic risk to Wellington\'s earthquake zone.',
-    url: 'https://buildingsinsurance.co.nz/regions/',
+    url: 'https://www.buildingsinsurance.co.nz/regions/',
   },
 };
 

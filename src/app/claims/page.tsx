@@ -13,8 +13,8 @@ export default function ClaimsPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz' },
-      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://buildingsinsurance.co.nz/claims/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz' },
+      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://www.buildingsinsurance.co.nz/claims/' },
     ],
   };
 

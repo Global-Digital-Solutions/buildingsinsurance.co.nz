@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Buildings Insurance NZ | Business Protection',
     description: 'Comprehensive buildings insurance for NZ commercial properties. NOT covered by EQC. Protect your business investment now.',
-    url: 'https://buildingsinsurance.co.nz/sectors/commercial/',
+    url: 'https://www.buildingsinsurance.co.nz/sectors/commercial/',
     type: 'website',
   },
   alternates: {
@@ -411,11 +411,11 @@ export default function CommercialPage() {
           provider: {
             '@type': 'Organization',
             name: 'BuildingsInsurance.co.nz',
-            url: 'https://buildingsinsurance.co.nz'
+            url: 'https://www.buildingsinsurance.co.nz'
           },
           areaServed: { '@type': 'Country', name: 'New Zealand' },
           serviceType: 'Insurance Comparison',
-          url: 'https://buildingsinsurance.co.nz/sectors/commercial/'
+          url: 'https://www.buildingsinsurance.co.nz/sectors/commercial/'
         }) }}
       />
     </main>

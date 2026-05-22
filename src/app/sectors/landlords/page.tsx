@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Landlord Buildings Insurance NZ | Rental Property Protection',
     description: 'Complete buildings insurance for NZ landlords. Tenant damage, loss of rent, meth contamination, and tax deductibility explained.',
-    url: 'https://buildingsinsurance.co.nz/sectors/landlords/',
+    url: 'https://www.buildingsinsurance.co.nz/sectors/landlords/',
   },
   alternates: {
     canonical: 'https://www.buildingsinsurance.co.nz/sectors/landlords/',
@@ -543,11 +543,11 @@ export default function LandlordsPage() {
           provider: {
             '@type': 'Organization',
             name: 'BuildingsInsurance.co.nz',
-            url: 'https://buildingsinsurance.co.nz'
+            url: 'https://www.buildingsinsurance.co.nz'
           },
           areaServed: { '@type': 'Country', name: 'New Zealand' },
           serviceType: 'Insurance Comparison',
-          url: 'https://buildingsinsurance.co.nz/sectors/landlords/'
+          url: 'https://www.buildingsinsurance.co.nz/sectors/landlords/'
         }) }}
       />
     </main>

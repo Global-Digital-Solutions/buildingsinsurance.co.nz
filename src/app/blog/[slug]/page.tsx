@@ -344,10 +344,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            '@id': `https://buildingsinsurance.co.nz/blog/${post.slug}/`,
+            '@id': `https://www.buildingsinsurance.co.nz/blog/${post.slug}/`,
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': `https://buildingsinsurance.co.nz/blog/${post.slug}/`,
+              '@id': `https://www.buildingsinsurance.co.nz/blog/${post.slug}/`,
             },
             headline: post.title,
             description: post.excerpt,
@@ -363,34 +363,34 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             inLanguage: 'en-NZ',
             author: post.author === 'Sarah Mitchell' ? {
               '@type': 'Person',
-              '@id': 'https://buildingsinsurance.co.nz/#author-sarah-mitchell',
+              '@id': 'https://www.buildingsinsurance.co.nz/#author-sarah-mitchell',
               name: 'Sarah Mitchell',
               jobTitle: 'Insurance Content Analyst',
               description: 'Sarah specialises in NZ property insurance research and consumer education. She holds a Graduate Diploma in Business and has spent 7+ years analysing insurance products across the New Zealand market.',
               worksFor: {
-                '@id': 'https://buildingsinsurance.co.nz/#organization',
+                '@id': 'https://www.buildingsinsurance.co.nz/#organization',
               },
               knowsAbout: ['Buildings Insurance', 'Home Insurance NZ', 'Natural Hazards Commission', 'Underinsurance'],
             } : {
               '@type': 'Person',
-              '@id': 'https://buildingsinsurance.co.nz/#author-james-thornton',
+              '@id': 'https://www.buildingsinsurance.co.nz/#author-james-thornton',
               name: 'James Thornton',
               jobTitle: 'Senior Insurance Adviser',
               description: 'James is a licensed NZ insurance adviser with over a decade of experience in residential and commercial property insurance. He holds a New Zealand Certificate in Financial Services (Level 5) and specialises in earthquake and natural hazard risk.',
               worksFor: {
-                '@id': 'https://buildingsinsurance.co.nz/#organization',
+                '@id': 'https://www.buildingsinsurance.co.nz/#organization',
               },
               knowsAbout: ['Earthquake Insurance', 'NHC / EQC Cover', 'Landlord Insurance', 'Commercial Buildings Insurance', 'Body Corporate Insurance'],
             },
             publisher: {
-              '@id': 'https://buildingsinsurance.co.nz/#organization',
+              '@id': 'https://www.buildingsinsurance.co.nz/#organization',
             },
             isPartOf: {
               '@type': 'Blog',
-              '@id': 'https://buildingsinsurance.co.nz/blog/',
+              '@id': 'https://www.buildingsinsurance.co.nz/blog/',
               name: 'BuildingsInsurance.co.nz Resources',
               publisher: {
-                '@id': 'https://buildingsinsurance.co.nz/#organization',
+                '@id': 'https://www.buildingsinsurance.co.nz/#organization',
               },
             },
           }),
@@ -404,9 +404,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz/' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://buildingsinsurance.co.nz/blog/' },
-              { '@type': 'ListItem', position: 3, name: post.title, item: `https://buildingsinsurance.co.nz/blog/${post.slug}/` },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz/' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.buildingsinsurance.co.nz/blog/' },
+              { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.buildingsinsurance.co.nz/blog/${post.slug}/` },
             ],
           }),
         }}

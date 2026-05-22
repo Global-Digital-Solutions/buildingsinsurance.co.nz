@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Earthquake Insurance NZ | Buildings Cover for Seismic Risk',
     description: 'New Zealand sits on the Pacific Ring of Fire. Find out how EQC NHCover and private buildings insurance work together — and how to close the gaps.',
-    url: 'https://buildingsinsurance.co.nz/earthquake-insurance/',
+    url: 'https://www.buildingsinsurance.co.nz/earthquake-insurance/',
   },
 };
 
@@ -78,8 +78,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz/' },
-    { '@type': 'ListItem', position: 2, name: 'Earthquake Insurance', item: 'https://buildingsinsurance.co.nz/earthquake-insurance/' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz/' },
+    { '@type': 'ListItem', position: 2, name: 'Earthquake Insurance', item: 'https://www.buildingsinsurance.co.nz/earthquake-insurance/' },
   ],
 };
 

@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Buildings Insurance Resources NZ | Guides & Insights',
     description: 'Expert guides and insights on buildings insurance in New Zealand.',
-    url: 'https://buildingsinsurance.co.nz/blog/',
-    images: ['https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=630&fit=crop'],
+    url: 'https://www.buildingsinsurance.co.nz/blog/',
+    images: ['https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=630&fit=crop'],
   },
 };
 
@@ -30,7 +30,7 @@ export default function BlogPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] min-h-[250px] sm:h-[50vh] sm:min-h-[300px] bg-slate-900 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?w=1920&h=900&fit=crop"
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&h=900&fit=crop"
           alt="New Zealand suburban homes and neighbourhood"
           fill
           className="object-cover"

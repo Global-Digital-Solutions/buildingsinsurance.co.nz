@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Flood & Storm Insurance NZ | Home Flood Cover Guide',
     description: 'Cyclone Gabrielle, Auckland floods 2023, and Bay of Plenty events — NZ storm damage is on the rise. Is your buildings insurance ready?',
-    url: 'https://buildingsinsurance.co.nz/flood-insurance/',
+    url: 'https://www.buildingsinsurance.co.nz/flood-insurance/',
   },
 };
 
@@ -47,18 +47,18 @@ const schemaFlood = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://buildingsinsurance.co.nz/' },
-      { '@type': 'ListItem', position: 2, name: 'Flood & Storm Insurance', item: 'https://buildingsinsurance.co.nz/flood-insurance/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.buildingsinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Flood & Storm Insurance', item: 'https://www.buildingsinsurance.co.nz/flood-insurance/' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://buildingsinsurance.co.nz/flood-insurance/',
+    '@id': 'https://www.buildingsinsurance.co.nz/flood-insurance/',
     name: 'Flood & Storm Insurance NZ | Home Flood Cover Guide',
     description: 'What NZ buildings insurance covers for flood and storm damage, high-risk regions, and what to do after a weather event.',
     inLanguage: 'en-NZ',
-    isPartOf: { '@id': 'https://buildingsinsurance.co.nz/#website' },
+    isPartOf: { '@id': 'https://www.buildingsinsurance.co.nz/#website' },
   },
 ];
 

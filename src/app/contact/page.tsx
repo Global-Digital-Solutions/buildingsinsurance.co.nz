@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact BuildingsInsurance.co.nz | Get a Quote',
     description: 'Get a buildings insurance quote from our NZ experts.',
-    url: 'https://buildingsinsurance.co.nz/contact/',
+    url: 'https://www.buildingsinsurance.co.nz/contact/',
     images: ['https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&h=630&fit=crop'],
   },
 };

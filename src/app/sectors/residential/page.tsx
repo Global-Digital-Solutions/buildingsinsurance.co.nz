@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Residential Buildings Insurance NZ | Home Owner Protection',
     description: 'Comprehensive buildings insurance for NZ residential homes. EQC integration, weathertightness protection, and earthquake cover explained.',
-    url: 'https://buildingsinsurance.co.nz/sectors/residential/',
+    url: 'https://www.buildingsinsurance.co.nz/sectors/residential/',
     type: 'website',
   },
 };
@@ -379,11 +379,11 @@ export default function ResidentialPage() {
           provider: {
             '@type': 'Organization',
             name: 'BuildingsInsurance.co.nz',
-            url: 'https://buildingsinsurance.co.nz'
+            url: 'https://www.buildingsinsurance.co.nz'
           },
           areaServed: { '@type': 'Country', name: 'New Zealand' },
           serviceType: 'Insurance Comparison',
-          url: 'https://buildingsinsurance.co.nz/sectors/residential/'
+          url: 'https://www.buildingsinsurance.co.nz/sectors/residential/'
         }) }}
       />
     </main>

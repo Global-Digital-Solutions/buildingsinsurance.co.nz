@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       'Buildings Insurance NZ | Compare & Save | BuildingsInsurance.co.nz',
     description:
       'Compare buildings insurance quotes from NZ leading insurers. Get instant quotes, save time and money on your home insurance cover.',
-    url: 'https://buildingsinsurance.co.nz/',
+    url: 'https://www.buildingsinsurance.co.nz/',
   },
 }
 
@@ -146,14 +146,14 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            '@id': 'https://buildingsinsurance.co.nz/',
-            url: 'https://buildingsinsurance.co.nz/',
+            '@id': 'https://www.buildingsinsurance.co.nz/',
+            url: 'https://www.buildingsinsurance.co.nz/',
             name: 'Buildings Insurance NZ | Compare & Save',
             description: 'Compare buildings insurance quotes from NZ leading insurers. Get quotes, save time and money on your home insurance cover.',
             inLanguage: 'en-NZ',
-            isPartOf: { '@id': 'https://buildingsinsurance.co.nz/#website' },
-            about: { '@id': 'https://buildingsinsurance.co.nz/#organization' },
-            publisher: { '@id': 'https://buildingsinsurance.co.nz/#organization' },
+            isPartOf: { '@id': 'https://www.buildingsinsurance.co.nz/#website' },
+            about: { '@id': 'https://www.buildingsinsurance.co.nz/#organization' },
+            publisher: { '@id': 'https://www.buildingsinsurance.co.nz/#organization' },
           }),
         }}
       />
