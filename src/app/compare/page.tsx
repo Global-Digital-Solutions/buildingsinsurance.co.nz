@@ -8,7 +8,7 @@ import { Star, Check, X, ArrowRight, Shield, Phone, FileText } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
   description: 'Compare top NZ buildings insurance providers side-by-side. ICNZ-registered, no broker fees, updated April 2026.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/compare/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/compare/' },
   openGraph: {
     title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
     description: 'Compare top NZ buildings insurance providers side-by-side. AMI, State, Tower, AA, Vero, NZI rated and compared.',

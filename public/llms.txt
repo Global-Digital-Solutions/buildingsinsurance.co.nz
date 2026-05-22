@@ -29,66 +29,66 @@ We provide no-obligation broker referrals for:
 ## Key Content
 
 ### High-Intent Landing Pages
-- [Earthquake Insurance NZ](https://buildingsinsurance.co.nz/earthquake-insurance/) — how NHCover and private cover work together, regional fault risk by city, NHC 2024 changes, FAQ
-- [Home Rebuild Cost Calculator](https://buildingsinsurance.co.nz/rebuild-cost-calculator/) — interactive estimator based on construction type, quality, and region; 2024 rate basis
-- [Underinsurance NZ](https://buildingsinsurance.co.nz/underinsurance/) — why 45% of NZ homes are underinsured, real shortfall scenarios, cost-rise drivers since 2019
-- [Flood & Storm Insurance NZ](https://buildingsinsurance.co.nz/flood-insurance/) — what is covered, exclusions, high-risk regions post-Gabrielle, claims process
-- [Affordable Buildings Insurance NZ](https://buildingsinsurance.co.nz/cheap-buildings-insurance/) — premium drivers, 6 legitimate saving strategies, market soft-cycle context
-- [New Build Insurance NZ](https://buildingsinsurance.co.nz/new-build-insurance/) — contract works vs buildings insurance, settlement timing, first home buyer tips
+- [Earthquake Insurance NZ](https://www.buildingsinsurance.co.nz/earthquake-insurance/) — how NHCover and private cover work together, regional fault risk by city, NHC 2024 changes, FAQ
+- [Home Rebuild Cost Calculator](https://www.buildingsinsurance.co.nz/rebuild-cost-calculator/) — interactive estimator based on construction type, quality, and region; 2024 rate basis
+- [Underinsurance NZ](https://www.buildingsinsurance.co.nz/underinsurance/) — why 45% of NZ homes are underinsured, real shortfall scenarios, cost-rise drivers since 2019
+- [Flood & Storm Insurance NZ](https://www.buildingsinsurance.co.nz/flood-insurance/) — what is covered, exclusions, high-risk regions post-Gabrielle, claims process
+- [Affordable Buildings Insurance NZ](https://www.buildingsinsurance.co.nz/cheap-buildings-insurance/) — premium drivers, 6 legitimate saving strategies, market soft-cycle context
+- [New Build Insurance NZ](https://www.buildingsinsurance.co.nz/new-build-insurance/) — contract works vs buildings insurance, settlement timing, first home buyer tips
 
 ### Coverage Guides
-- [Buildings Insurance Coverage Explained](https://buildingsinsurance.co.nz/coverage/) — what buildings insurance covers in NZ, including NHCover integration
+- [Buildings Insurance Coverage Explained](https://www.buildingsinsurance.co.nz/coverage/) — what buildings insurance covers in NZ, including NHCover integration
 
 ### Comparison
-- [Compare NZ Buildings Insurance Providers](https://buildingsinsurance.co.nz/compare/) — side-by-side overview of major NZ buildings insurers
+- [Compare NZ Buildings Insurance Providers](https://www.buildingsinsurance.co.nz/compare/) — side-by-side overview of major NZ buildings insurers
 
 ### Sector Guides
-- [Residential Buildings Insurance](https://buildingsinsurance.co.nz/sectors/residential/) — guide for homeowners
-- [Commercial Buildings Insurance](https://buildingsinsurance.co.nz/sectors/commercial/) — guide for business property owners (no NHC cover applies)
-- [Landlord Buildings Insurance](https://buildingsinsurance.co.nz/sectors/landlords/) — guide for rental property investors
-- [Body Corporate Insurance](https://buildingsinsurance.co.nz/sectors/body-corporate/) — mandatory insurance under the Unit Titles Act
+- [Residential Buildings Insurance](https://www.buildingsinsurance.co.nz/sectors/residential/) — guide for homeowners
+- [Commercial Buildings Insurance](https://www.buildingsinsurance.co.nz/sectors/commercial/) — guide for business property owners (no NHC cover applies)
+- [Landlord Buildings Insurance](https://www.buildingsinsurance.co.nz/sectors/landlords/) — guide for rental property investors
+- [Body Corporate Insurance](https://www.buildingsinsurance.co.nz/sectors/body-corporate/) — mandatory insurance under the Unit Titles Act
 
 ### Regional Landing Pages
-- [Buildings Insurance Auckland](https://buildingsinsurance.co.nz/regions/auckland/) — volcanic and flood risk, premium ranges
-- [Buildings Insurance Wellington](https://buildingsinsurance.co.nz/regions/wellington/) — Wellington Fault, extreme seismic risk
-- [Buildings Insurance Christchurch](https://buildingsinsurance.co.nz/regions/christchurch/) — liquefaction zones, TC land classification
-- [Buildings Insurance Hamilton](https://buildingsinsurance.co.nz/regions/hamilton/) — Waikato River flood plains
-- [Buildings Insurance Tauranga](https://buildingsinsurance.co.nz/regions/tauranga/) — coastal and weather risk
-- [Buildings Insurance Dunedin](https://buildingsinsurance.co.nz/regions/dunedin/) — heritage homes, flood and storm risk
-- [Buildings Insurance Hawke's Bay](https://buildingsinsurance.co.nz/regions/hawkes-bay/) — post-Gabrielle flood zones, seismic risk
-- [Buildings Insurance Nelson](https://buildingsinsurance.co.nz/regions/nelson/) — Alpine Fault proximity, 2022 flood context
-- [Buildings Insurance Rotorua](https://buildingsinsurance.co.nz/regions/rotorua/) — geothermal subsidence risk
-- [Buildings Insurance New Plymouth](https://buildingsinsurance.co.nz/regions/new-plymouth/) — Taranaki volcanic risk
-- [Buildings Insurance Queenstown](https://buildingsinsurance.co.nz/regions/queenstown/) — high rebuild costs, alpine risk, premium market
-- [Buildings Insurance Whangarei](https://buildingsinsurance.co.nz/regions/whangarei/) — Northland weather risk
-- [Buildings Insurance Palmerston North](https://buildingsinsurance.co.nz/regions/palmerston-north/) — Manawatu River flood plains
-- [Buildings Insurance Invercargill](https://buildingsinsurance.co.nz/regions/invercargill/) — southern storm exposure
-- [Buildings Insurance Gisborne](https://buildingsinsurance.co.nz/regions/gisborne/) — Gabrielle-affected, Hikurangi subduction zone
-- [Buildings Insurance by Region — All Areas](https://buildingsinsurance.co.nz/regions/) — hub page
+- [Buildings Insurance Auckland](https://www.buildingsinsurance.co.nz/regions/auckland/) — volcanic and flood risk, premium ranges
+- [Buildings Insurance Wellington](https://www.buildingsinsurance.co.nz/regions/wellington/) — Wellington Fault, extreme seismic risk
+- [Buildings Insurance Christchurch](https://www.buildingsinsurance.co.nz/regions/christchurch/) — liquefaction zones, TC land classification
+- [Buildings Insurance Hamilton](https://www.buildingsinsurance.co.nz/regions/hamilton/) — Waikato River flood plains
+- [Buildings Insurance Tauranga](https://www.buildingsinsurance.co.nz/regions/tauranga/) — coastal and weather risk
+- [Buildings Insurance Dunedin](https://www.buildingsinsurance.co.nz/regions/dunedin/) — heritage homes, flood and storm risk
+- [Buildings Insurance Hawke's Bay](https://www.buildingsinsurance.co.nz/regions/hawkes-bay/) — post-Gabrielle flood zones, seismic risk
+- [Buildings Insurance Nelson](https://www.buildingsinsurance.co.nz/regions/nelson/) — Alpine Fault proximity, 2022 flood context
+- [Buildings Insurance Rotorua](https://www.buildingsinsurance.co.nz/regions/rotorua/) — geothermal subsidence risk
+- [Buildings Insurance New Plymouth](https://www.buildingsinsurance.co.nz/regions/new-plymouth/) — Taranaki volcanic risk
+- [Buildings Insurance Queenstown](https://www.buildingsinsurance.co.nz/regions/queenstown/) — high rebuild costs, alpine risk, premium market
+- [Buildings Insurance Whangarei](https://www.buildingsinsurance.co.nz/regions/whangarei/) — Northland weather risk
+- [Buildings Insurance Palmerston North](https://www.buildingsinsurance.co.nz/regions/palmerston-north/) — Manawatu River flood plains
+- [Buildings Insurance Invercargill](https://www.buildingsinsurance.co.nz/regions/invercargill/) — southern storm exposure
+- [Buildings Insurance Gisborne](https://www.buildingsinsurance.co.nz/regions/gisborne/) — Gabrielle-affected, Hikurangi subduction zone
+- [Buildings Insurance by Region — All Areas](https://www.buildingsinsurance.co.nz/regions/) — hub page
 
 ### Claims
-- [Making a Buildings Insurance Claim](https://buildingsinsurance.co.nz/claims/) — step-by-step NZ claims guide
+- [Making a Buildings Insurance Claim](https://www.buildingsinsurance.co.nz/claims/) — step-by-step NZ claims guide
 
 ### Resources / Blog Articles
-- [Understanding Buildings Insurance in NZ](https://buildingsinsurance.co.nz/blog/understanding-buildings-insurance-nz/)
-- [Earthquake Cover: What NZ Homeowners Need to Know](https://buildingsinsurance.co.nz/blog/earthquake-cover-what-nz-homeowners-need-to-know/)
-- [Full Replacement vs Agreed Value](https://buildingsinsurance.co.nz/blog/full-replacement-vs-agreed-value/)
-- [Top 5 Claims NZ Homeowners Face](https://buildingsinsurance.co.nz/blog/top-5-claims-nz-homeowners-face/)
-- [Landlord Insurance: Protecting Your Investment](https://buildingsinsurance.co.nz/blog/landlord-insurance-protecting-your-investment/)
-- [Body Corporate Insurance Explained](https://buildingsinsurance.co.nz/blog/body-corporate-insurance-explained/)
-- [EQC / NHC Changes 2024 Explained](https://buildingsinsurance.co.nz/blog/eqc-natural-hazards-commission-changes-2024/)
-- [Home Underinsurance NZ: Rebuild Cost Guide](https://buildingsinsurance.co.nz/blog/home-underinsurance-nz-rebuild-cost-guide/)
-- [NZ Buildings Insurance Market 2025-2026](https://buildingsinsurance.co.nz/blog/nz-buildings-insurance-market-2026-soft-cycle/)
-- [Buildings Insurance for First Home Buyers](https://buildingsinsurance.co.nz/blog/buildings-insurance-first-home-buyers-nz/)
-- [Severe Weather and Home Damage Claims Guide](https://buildingsinsurance.co.nz/blog/severe-weather-home-damage-claims-guide-nz/)
-- [Buildings Insurance Excess Guide NZ](https://buildingsinsurance.co.nz/blog/buildings-insurance-excess-guide-nz/)
+- [Understanding Buildings Insurance in NZ](https://www.buildingsinsurance.co.nz/blog/understanding-buildings-insurance-nz/)
+- [Earthquake Cover: What NZ Homeowners Need to Know](https://www.buildingsinsurance.co.nz/blog/earthquake-cover-what-nz-homeowners-need-to-know/)
+- [Full Replacement vs Agreed Value](https://www.buildingsinsurance.co.nz/blog/full-replacement-vs-agreed-value/)
+- [Top 5 Claims NZ Homeowners Face](https://www.buildingsinsurance.co.nz/blog/top-5-claims-nz-homeowners-face/)
+- [Landlord Insurance: Protecting Your Investment](https://www.buildingsinsurance.co.nz/blog/landlord-insurance-protecting-your-investment/)
+- [Body Corporate Insurance Explained](https://www.buildingsinsurance.co.nz/blog/body-corporate-insurance-explained/)
+- [EQC / NHC Changes 2024 Explained](https://www.buildingsinsurance.co.nz/blog/eqc-natural-hazards-commission-changes-2024/)
+- [Home Underinsurance NZ: Rebuild Cost Guide](https://www.buildingsinsurance.co.nz/blog/home-underinsurance-nz-rebuild-cost-guide/)
+- [NZ Buildings Insurance Market 2025-2026](https://www.buildingsinsurance.co.nz/blog/nz-buildings-insurance-market-2026-soft-cycle/)
+- [Buildings Insurance for First Home Buyers](https://www.buildingsinsurance.co.nz/blog/buildings-insurance-first-home-buyers-nz/)
+- [Severe Weather and Home Damage Claims Guide](https://www.buildingsinsurance.co.nz/blog/severe-weather-home-damage-claims-guide-nz/)
+- [Buildings Insurance Excess Guide NZ](https://www.buildingsinsurance.co.nz/blog/buildings-insurance-excess-guide-nz/)
 
 ### Company Pages
-- [About BuildingsInsurance.co.nz](https://buildingsinsurance.co.nz/about/)
-- [Contact Us](https://buildingsinsurance.co.nz/contact/)
-- [Privacy Policy](https://buildingsinsurance.co.nz/privacy/)
-- [Terms of Service](https://buildingsinsurance.co.nz/terms/)
-- [Disclaimer](https://buildingsinsurance.co.nz/disclaimer/)
+- [About BuildingsInsurance.co.nz](https://www.buildingsinsurance.co.nz/about/)
+- [Contact Us](https://www.buildingsinsurance.co.nz/contact/)
+- [Privacy Policy](https://www.buildingsinsurance.co.nz/privacy/)
+- [Terms of Service](https://www.buildingsinsurance.co.nz/terms/)
+- [Disclaimer](https://www.buildingsinsurance.co.nz/disclaimer/)
 
 ## NZ Insurance Context (Updated July 2024)
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://buildingsinsurance.co.nz/sectors/body-corporate/',
   },
   alternates: {
-    canonical: 'https://buildingsinsurance.co.nz/sectors/body-corporate/',
+    canonical: 'https://www.buildingsinsurance.co.nz/sectors/body-corporate/',
   },
 };
 

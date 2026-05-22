@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Buildings Insurance Coverage NZ | What's Covered",
   description:
     "Understand buildings insurance coverage options in New Zealand. Compare coverage tiers, learn what is and isn't covered, and find the right protection for your property.",
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/coverage/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/coverage/' },
   openGraph: {
     title: "Buildings Insurance Coverage NZ | What's Covered",
     description:

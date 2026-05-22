@@ -5,7 +5,7 @@ import { AlertCircle, Clock, Mail, FileText, Heart, ShieldCheck, ChevronRight } 
 export const metadata: Metadata = {
   title: 'Making a Claim | BuildingsInsurance.co.nz',
   description: 'How to make a buildings and home insurance claim, our complaints process, and support for vulnerable customers. BuildingsInsurance.co.nz is a referral service — claims are handled directly by your insurer.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/claims/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/claims/' },
 };
 
 export default function ClaimsPage() {

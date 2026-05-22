@@ -7,7 +7,7 @@ import { faqs } from '@/data/faqs';
 export const metadata: Metadata = {
   title: 'Contact BuildingsInsurance.co.nz | Get a Quote',
   description: 'Contact our NZ insurance experts for a buildings insurance quote. Get expert advice and the best rates today.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/contact/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/contact/' },
   openGraph: {
     title: 'Contact BuildingsInsurance.co.nz | Get a Quote',
     description: 'Get a buildings insurance quote from our NZ experts.',

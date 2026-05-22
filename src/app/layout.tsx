@@ -6,10 +6,10 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Buildings Insurance NZ | Compare & Save | BuildingsInsurance.co.nz',
   description: 'Find the best buildings insurance for your NZ home. Compare quotes from top insurers, understand EQC coverage, and protect your property with our expert guides.',
-  metadataBase: new URL('https://buildingsinsurance.co.nz'),
+  metadataBase: new URL('https://www.buildingsinsurance.co.nz'),
   keywords: ['buildings insurance nz', 'house insurance new zealand', 'home insurance comparison', 'buildings insurance quotes', 'eqc cover', 'earthquake insurance nz', 'property insurance nz', 'landlord insurance nz', 'commercial buildings insurance', 'body corporate insurance'],
   alternates: {
-    canonical: 'https://buildingsinsurance.co.nz',
+    canonical: 'https://www.buildingsinsurance.co.nz',
   },
   openGraph: {
     title: 'Buildings Insurance NZ | Compare & Save',

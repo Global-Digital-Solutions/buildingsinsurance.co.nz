@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://buildingsinsurance.co.nz/sectors/landlords/',
   },
   alternates: {
-    canonical: 'https://buildingsinsurance.co.nz/sectors/landlords/',
+    canonical: 'https://www.buildingsinsurance.co.nz/sectors/landlords/',
   },
 };
 

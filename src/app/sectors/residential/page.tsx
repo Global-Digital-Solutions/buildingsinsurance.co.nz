@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Comprehensive buildings insurance for NZ residential homes. EQC integration, weathertightness protection, and earthquake cover explained.',
   keywords: ['residential buildings insurance', 'home insurance NZ', 'buildings insurance', 'EQC', 'house insurance', 'home protection'],
   alternates: {
-    canonical: 'https://buildingsinsurance.co.nz/sectors/residential/',
+    canonical: 'https://www.buildingsinsurance.co.nz/sectors/residential/',
   },
   openGraph: {
     title: 'Residential Buildings Insurance NZ | Home Owner Protection',

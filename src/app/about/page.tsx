@@ -5,7 +5,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About BuildingsInsurance.co.nz | NZ Property Insurance Experts',
   description: 'Learn about our mission to help New Zealand property owners find the right buildings insurance coverage at competitive rates.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/about/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/about/' },
   openGraph: {
     title: 'About BuildingsInsurance.co.nz | NZ Property Insurance Experts',
     description: 'Learn about our mission to help NZ property owners find the right buildings insurance.',

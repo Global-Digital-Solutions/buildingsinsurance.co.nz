@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle, AlertTriangle, CloudRain, Shield } from 'lucid
 export const metadata: Metadata = {
   title: 'Flood & Storm Insurance NZ | Home Flood Cover Guide',
   description: 'Flood and storm insurance for NZ homes. What standard buildings insurance covers, what it doesn\'t, how to check your flood risk, and what to do after a weather event.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/flood-insurance/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/flood-insurance/' },
   openGraph: {
     title: 'Flood & Storm Insurance NZ | Home Flood Cover Guide',
     description: 'Cyclone Gabrielle, Auckland floods 2023, and Bay of Plenty events — NZ storm damage is on the rise. Is your buildings insurance ready?',

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://buildingsinsurance.co.nz/sectors/commercial/',
+    canonical: 'https://www.buildingsinsurance.co.nz/sectors/commercial/',
   },
 };
 

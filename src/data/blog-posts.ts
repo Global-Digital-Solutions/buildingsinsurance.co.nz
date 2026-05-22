@@ -1103,7 +1103,7 @@ export const blogPosts: BlogPost[] = [
     date: '2026-03-31',
     category: 'Claims',
     author: 'James Thornton',
-    image: 'https://images.unsplash.com/photo-1523772721666-22ad3753b16c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1504608524841-42785f576404?w=800&q=80',
     readingTime: 6,
     content: `<h2>Weather Events Are Increasing in New Zealand</h2>
 <p>Severe weather is not an occasional occurrence in New Zealand — it is a regular feature of our climate. In 2025, NZ insurers issued 36 separate weather-related event codes, generating thousands of claims from affected homeowners. The La Niña weather pattern, combined with warmer sea surface temperatures, is increasing the likelihood of tropical systems and periods of intense rainfall reaching New Zealand.</p>

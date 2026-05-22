@@ -6,7 +6,7 @@ import { ArrowRight, AlertTriangle, Calculator, CheckCircle, Shield } from 'luci
 export const metadata: Metadata = {
   title: 'Underinsurance NZ | Are You Underinsured? Buildings Insurance Guide',
   description: 'NZ rebuild costs have risen 35–45% since 2019. Millions of NZ homes are now underinsured. Find out if your sum-insured is high enough — and what happens if it\'s not.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/underinsurance/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/underinsurance/' },
   openGraph: {
     title: 'Underinsurance NZ | Are You Underinsured?',
     description: 'With NZ rebuild costs up 35–45% since 2019, your 2020 sum-insured may leave you $100,000+ short after a total loss. Find out how to check.',

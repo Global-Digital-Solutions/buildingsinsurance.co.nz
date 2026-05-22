@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle, TrendingDown, Shield, AlertTriangle } from 'lu
 export const metadata: Metadata = {
   title: 'Cheap Buildings Insurance NZ | How to Reduce Your Premium',
   description: 'Looking for affordable buildings insurance in NZ? Find out what drives premiums up, how to legitimately reduce your cost, and why the cheapest policy isn\'t always the best value.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/cheap-buildings-insurance/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/cheap-buildings-insurance/' },
   openGraph: {
     title: 'Cheap Buildings Insurance NZ | How to Reduce Your Premium',
     description: 'Compare NZ buildings insurance and find ways to lower your premium without sacrificing the cover you actually need.',

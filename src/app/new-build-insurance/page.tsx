@@ -6,7 +6,7 @@ import { ArrowRight, CheckCircle, AlertTriangle, Home, Shield, Clock } from 'luc
 export const metadata: Metadata = {
   title: 'New Build Insurance NZ | Buildings Insurance for New Homes',
   description: 'Buildings insurance for new builds and newly constructed homes in NZ. What you need during construction, when it starts, and how new builds differ from existing homes.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/new-build-insurance/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/new-build-insurance/' },
   openGraph: {
     title: 'New Build Insurance NZ | Buildings Insurance for New Homes',
     description: 'Buying or building a new home in NZ? Find out exactly what insurance you need, when you need it, and how to make sure you\'re covered from day one.',

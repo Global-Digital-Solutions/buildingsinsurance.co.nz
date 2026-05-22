@@ -6,7 +6,7 @@ import { AlertTriangle, CheckCircle, ArrowRight, Shield, Info } from 'lucide-rea
 export const metadata: Metadata = {
   title: 'Earthquake Insurance NZ | Buildings Cover for Seismic Risk',
   description: 'Understand earthquake insurance for NZ homes. How EQC / NHCover works, what private insurer top-up covers, and how to make sure your home is fully protected after a quake.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/earthquake-insurance/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/earthquake-insurance/' },
   openGraph: {
     title: 'Earthquake Insurance NZ | Buildings Cover for Seismic Risk',
     description: 'New Zealand sits on the Pacific Ring of Fire. Find out how EQC NHCover and private buildings insurance work together — and how to close the gaps.',

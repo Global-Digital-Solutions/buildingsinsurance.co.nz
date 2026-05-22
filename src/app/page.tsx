@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'Buildings Insurance NZ | Compare & Save | BuildingsInsurance.co.nz',
   description:
     'Compare buildings insurance quotes from NZ leading insurers. Get instant quotes, save time and money on your home insurance cover.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/' },
   openGraph: {
     title:
       'Buildings Insurance NZ | Compare & Save | BuildingsInsurance.co.nz',

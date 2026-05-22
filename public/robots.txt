@@ -48,4 +48,4 @@ Disallow: /
 User-agent: DataForSeoBot
 Disallow: /
 
-Sitemap: https://buildingsinsurance.co.nz/sitemap.xml
+Sitemap: https://www.buildingsinsurance.co.nz/sitemap.xml

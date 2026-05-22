@@ -7,7 +7,7 @@ import { MapPin, AlertTriangle, ArrowRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Buildings Insurance by Region | NZ City & Area Guides',
   description: 'Find buildings insurance information specific to your New Zealand city or region. Local risk guides for Auckland, Wellington, Christchurch, and 12 more areas.',
-  alternates: { canonical: 'https://buildingsinsurance.co.nz/regions/' },
+  alternates: { canonical: 'https://www.buildingsinsurance.co.nz/regions/' },
   openGraph: {
     title: 'Buildings Insurance by Region | NZ City & Area Guides',
     description: 'Local buildings insurance guides for every major NZ city and region — from Auckland\'s volcanic risk to Wellington\'s earthquake zone.',
