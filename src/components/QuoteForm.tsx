@@ -110,7 +110,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         </div>
         <div>
           <label htmlFor="phone" className={labelClass}>Phone <span className="text-red-500">*</span></label>
-          <input type="tel" id="phone" name="phone" required placeholder="09 123 4567" value={formData.phone} onChange={handleChange} className={inputClass} />
+          <input type="tel" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6} id="phone" name="phone" required placeholder="09 123 4567" value={formData.phone} onChange={handleChange} className={inputClass} />
         </div>
         {propertyTypeField}
         {propertyValueField}
@@ -181,7 +181,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 </div>
-                <input type="tel" id="phone" name="phone" required placeholder="09 123 4567" value={formData.phone} onChange={handleChange} className={`${inputClass} pl-12`} />
+                <input type="tel" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6} id="phone" name="phone" required placeholder="09 123 4567" value={formData.phone} onChange={handleChange} className={`${inputClass} pl-12`} />
               </div>
             </div>
           </div>
