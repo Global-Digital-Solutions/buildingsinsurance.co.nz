@@ -88,7 +88,7 @@ const resourceCards = [
 ];
 
 const regulatoryBodies = [
-  { name: 'Insurance Council of NZ', abbr: 'ICNZ', href: 'https://www.icnz.org.nz' },
+  { name: 'Financial Service Providers Register', abbr: 'FSPR', href: 'https://www.companiesoffice.govt.nz/all-registers/financial-service-providers/' },
   { name: 'Earthquake Commission', abbr: 'EQC', href: 'https://www.eqc.govt.nz' },
   { name: 'Building Performance NZ', abbr: 'BPNZ', href: 'https://www.building.govt.nz' },
   { name: 'Insurance & Financial Services Ombudsman', abbr: 'IFSO', href: 'https://www.ifso.nz' },

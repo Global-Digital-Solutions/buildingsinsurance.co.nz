@@ -52,7 +52,7 @@ const timelineEvents = [
   {
     year: '2021',
     title: 'NZ Compliance',
-    description: 'Achieved full compliance with ICNZ standards and became registered with all major NZ insurance regulators.',
+    description: 'Achieved full compliance with FSPR requirements and became registered with all major NZ insurance regulators.',
   },
   {
     year: '2022',
@@ -161,7 +161,7 @@ const testimonials = [
 const partnerships = [
   {
     name: 'Insurance Council of New Zealand',
-    abbr: 'ICNZ',
+    abbr: 'FSPR',
     description: 'Industry-leading standards and compliance',
     href: 'https://www.icnz.org.nz',
   },

@@ -7,7 +7,7 @@ import { Star, Check, X, ArrowRight, Shield, Phone, FileText } from 'lucide-reac
 
 export const metadata: Metadata = {
   title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
-  description: 'Compare top NZ buildings insurance providers side-by-side. ICNZ-registered, no broker fees, updated April 2026.',
+  description: 'Compare top NZ buildings insurance providers side-by-side. FSPR-registered, no broker fees, updated April 2026.',
   alternates: { canonical: 'https://www.buildingsinsurance.co.nz/compare/' },
   openGraph: {
     title: 'Compare NZ Buildings Insurance Providers | Side-by-Side',
@@ -145,7 +145,7 @@ export default function ComparePage() {
           <div className="flex flex-wrap gap-6 justify-center text-sm md:text-base text-sky-100">
             <div className="flex items-center gap-2">
               <Check size={20} className="text-emerald-400" />
-              <span>ICNZ-registered providers</span>
+              <span>FSPR-registered advisers</span>
             </div>
             <div className="flex items-center gap-2">
               <Check size={20} className="text-emerald-400" />
